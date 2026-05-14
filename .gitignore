@@ -4,4 +4,5 @@
 *.fls
 *.fdb_latexmk
 .DS_Store
-.automation
+.automation/auto-commit.log
+.automation/auto-commit.error.log
