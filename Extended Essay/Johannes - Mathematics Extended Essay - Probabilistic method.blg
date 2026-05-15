@@ -1,0 +1,9 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'Johannes - Mathematics Extended Essay - Probabilistic method.blg'
+[34] biber-darwin:342> INFO - === Fri May 15, 2026, 10:31:05
+[42] Biber.pm:421> INFO - Reading 'Johannes - Mathematics Extended Essay - Probabilistic method.bcf'
+[81] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[89] bbl.pm:676> INFO - Writing 'Johannes - Mathematics Extended Essay - Probabilistic method.bbl' with encoding 'UTF-8'
+[89] bbl.pm:779> INFO - Output to Johannes - Mathematics Extended Essay - Probabilistic method.bbl
+[89] Biber.pm:132> WARN - The file 'Johannes - Mathematics Extended Essay - Probabilistic method.bcf' does not contain any citations!
+[89] Biber.pm:134> INFO - WARNINGS: 1
