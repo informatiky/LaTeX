@@ -1,0 +1,129 @@
+% ============================================================
+%  PREAMBLE
+% ============================================================
+\documentclass[12pt, a4paper]{article}   % font size, paper size
+
+% Encoding & language
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+% Page layout
+\usepackage[margin=2.5cm]{geometry}
+
+% Math
+\usepackage{amsmath}    % extended math environments
+\usepackage{amssymb}    % extra symbols (ℝ, ∞, etc.)
+
+% Graphics & figures
+\usepackage{graphicx}   % \includegraphics
+\usepackage{float}      % [H] placement option
+
+% Tables
+\usepackage{booktabs}   % \toprule, \midrule, \bottomrule
+
+% Hyperlinks (load last)
+\usepackage[hidelinks]{hyperref}
+
+% ---- Document metadata ----
+\title{Title}
+\author{Author Name}
+\date{\today}           % or a fixed date: \date{15 May 2026}
+
+
+% ============================================================
+%  BODY
+% ============================================================
+\begin{document}
+
+\maketitle              % renders title, author, date
+\tableofcontents        % auto-generated from \section{} headings
+\newpage
+
+
+% ---- Section ----
+\section{Introduction}
+
+Body text goes here. A blank line in the source starts a new paragraph.
+Inline math: $E = mc^2$.
+
+% ---- Subsection ----
+\subsection{Background}
+
+\subsubsection{Detail}
+
+% ---- Unnumbered section (won't appear in ToC by default) ----
+\section*{Unnumbered Section}
+
+
+% ---- Lists ----
+\begin{itemize}
+    \item First bullet
+    \item Second bullet
+        \begin{itemize}
+            \item Nested bullet
+        \end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+    \item First item
+    \item Second item
+\end{enumerate}
+
+
+% ---- Display math ----
+\begin{equation}
+    \int_a^b f(x)\,dx = F(b) - F(a)
+    \label{eq:fundamental}
+\end{equation}
+
+See Equation~\ref{eq:fundamental}.   % cross-reference
+
+% Multi-line aligned equations
+\begin{align}
+    y &= mx + b \\
+    z &= ax^2 + bx + c
+\end{align}
+
+
+% ---- Figure ----
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{filename}   % no extension needed
+    \caption{Caption text.}
+    \label{fig:example}
+\end{figure}
+
+See Figure~\ref{fig:example}.
+
+
+% ---- Table ----
+\begin{table}[H]
+    \centering
+    \caption{Caption text.}
+    \label{tab:example}
+    \begin{tabular}{lcc}
+        \toprule
+        Column A    & Column B  & Column C  \\
+        \midrule
+        Row 1       & value     & value     \\
+        Row 2       & value     & value     \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+See Table~\ref{tab:example}.
+
+
+% ---- Bibliography ----
+% Option A: manual
+\begin{thebibliography}{9}
+    \bibitem{key1} Author, \textit{Title}, Publisher, Year.
+\end{thebibliography}
+
+% Option B: BibLaTeX (comment out Option A and uncomment below)
+% \usepackage{biblatex}          % add to preamble
+% \addbibresource{refs.bib}      % add to preamble
+% \printbibliography             % replaces \begin{thebibliography}
+
+\end{document}
