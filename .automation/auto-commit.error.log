@@ -525,3 +525,5 @@ fatal: could not open '.git/COMMIT_EDITMSG': Resource deadlock avoided
 fatal: could not open '.git/COMMIT_EDITMSG': Resource deadlock avoided
 To https://github.com/informatiky/LaTeX.git
    1982665..77ba92a  main -> main
+To https://github.com/informatiky/LaTeX.git
+   77ba92a..126abd3  main -> main
