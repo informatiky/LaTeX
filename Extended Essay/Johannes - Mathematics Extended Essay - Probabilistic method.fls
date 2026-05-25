@@ -1,8 +1,8 @@
-PWD /Users/johannes/Documents/LaTeX/Extended Essay
+PWD /Users/johannes/Duzzle/LaTeX/Extended Essay
 INPUT /usr/local/texlive/2026/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/johannes/Documents/LaTeX/Extended Essay/Johannes - Mathematics Extended Essay - Probabilistic method.tex
+INPUT /Users/johannes/Duzzle/LaTeX/Extended Essay/Johannes - Mathematics Extended Essay - Probabilistic method.tex
 OUTPUT Johannes - Mathematics Extended Essay - Probabilistic method.log
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
