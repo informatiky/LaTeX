@@ -4,6 +4,9 @@ REPO_PATH="$HOME/Duzzle/LaTeX"   # Change to your VS Code project folder
 COMMIT_INTERVAL=30
 PUSH_INTERVAL=600
 
+# Trim logs older than 1 day
+find "$(dirname "$0")" -name "*.log" -mtime +1 -delete
+
 cd "$REPO_PATH" || exit 1
 BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
 
