@@ -1,6 +1,6 @@
 #!/bin/bash
 # Configuration
-REPO_PATH="$HOME/Documents/LaTeX"   # Change to your VS Code project folder
+REPO_PATH="$HOME/Duzzle/LaTeX"   # Change to your VS Code project folder
 COMMIT_INTERVAL=30
 PUSH_INTERVAL=600
 
