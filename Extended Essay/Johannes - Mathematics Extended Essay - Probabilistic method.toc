@@ -1,8 +1,0 @@
-\babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
-\contentsline {section}{\numberline {2}Scale Free Networks and Graph Theory}{2}{section.2}%
-\contentsline {section}{\numberline {3}The Probabilistic Method}{2}{section.3}%
-\contentsline {section}{\numberline {4}Predicting clique sizes in Scale Free Networks}{2}{section.4}%
-\contentsline {section}{\numberline {5}Building Scale Free Networks}{3}{section.5}%
-\contentsline {section}{\numberline {6}Comparing Results}{3}{section.6}%
-\contentsline {section}{\numberline {7}Conclusion}{3}{section.7}%

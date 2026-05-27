@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Johannes - Mathematics Extended Essay - Probabilistic method"] 1779901798.67382 "Johannes - Mathematics Extended Essay - Probabilistic method.bcf" "Johannes - Mathematics Extended Essay - Probabilistic method.bbl" "Johannes - Mathematics Extended Essay - Probabilistic method" 1779901970.74373 0
-  "Johannes - Mathematics Extended Essay - Probabilistic method.bcf" 1779901970.66071 108568 4094b7f26d3f38acb8b0d0ef16ef7b9d "pdflatex"
+["biber Johannes - Mathematics Extended Essay - Probabilistic method"] 1779901798.67382 "Johannes - Mathematics Extended Essay - Probabilistic method.bcf" "Johannes - Mathematics Extended Essay - Probabilistic method.bbl" "Johannes - Mathematics Extended Essay - Probabilistic method" 1779902010.66542 0
+  "Johannes - Mathematics Extended Essay - Probabilistic method.bcf" 1779902010.59246 108568 4094b7f26d3f38acb8b0d0ef16ef7b9d "pdflatex"
   (generated)
   "Johannes - Mathematics Extended Essay - Probabilistic method.bbl"
   "Johannes - Mathematics Extended Essay - Probabilistic method.blg"
   (rewritten before read)
-["pdflatex"] 1779901969.75221 "/Users/johannes/Duzzle/LaTeX/Extended Essay/Johannes - Mathematics Extended Essay - Probabilistic method.tex" "Johannes - Mathematics Extended Essay - Probabilistic method.pdf" "Johannes - Mathematics Extended Essay - Probabilistic method" 1779901970.74397 0
-  "/Users/johannes/Duzzle/LaTeX/Extended Essay/Johannes - Mathematics Extended Essay - Probabilistic method.tex" 1779901969.51992 4168 518a0996197a2b9c270225f600004b55 ""
+["pdflatex"] 1779902009.80437 "/Users/johannes/Duzzle/LaTeX/Extended Essay/Johannes - Mathematics Extended Essay - Probabilistic method.tex" "Johannes - Mathematics Extended Essay - Probabilistic method.pdf" "Johannes - Mathematics Extended Essay - Probabilistic method" 1779902010.66569 0
+  "/Users/johannes/Duzzle/LaTeX/Extended Essay/Johannes - Mathematics Extended Essay - Probabilistic method.tex" 1779902009.6341 4168 64aeba89c510effeb3306b89d24b31ef ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -120,12 +120,12 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1778796069 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1778795937 3636778 24fa674e5f31394de642cd001dd2ec33 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "Johannes - Mathematics Extended Essay - Probabilistic method.aux" 1779901970.65837 1248 8f3f852baf60ee0a3c72f7987082030d "pdflatex"
+  "Johannes - Mathematics Extended Essay - Probabilistic method.aux" 1779902010.59013 1248 8f3f852baf60ee0a3c72f7987082030d "pdflatex"
   "Johannes - Mathematics Extended Essay - Probabilistic method.bbl" 1779901819.7136 466 76d65a242ec496c9b4361af646ff12cb "biber Johannes - Mathematics Extended Essay - Probabilistic method"
-  "Johannes - Mathematics Extended Essay - Probabilistic method.out" 1779901970.6597 1217 60e094e6a9efd0ac7be4c097b84b22db "pdflatex"
-  "Johannes - Mathematics Extended Essay - Probabilistic method.run.xml" 1779901970.66137 2728 be48f062d40e031ce53bef06f4f3592e "pdflatex"
-  "Johannes - Mathematics Extended Essay - Probabilistic method.tex" 1779901969.51992 4168 518a0996197a2b9c270225f600004b55 ""
-  "Johannes - Mathematics Extended Essay - Probabilistic method.toc" 1779901970.66143 595 0152364e4b837f46d46f775001995a3f "pdflatex"
+  "Johannes - Mathematics Extended Essay - Probabilistic method.out" 1779902010.5915 1217 60e094e6a9efd0ac7be4c097b84b22db "pdflatex"
+  "Johannes - Mathematics Extended Essay - Probabilistic method.run.xml" 1779902010.59309 2728 be48f062d40e031ce53bef06f4f3592e "pdflatex"
+  "Johannes - Mathematics Extended Essay - Probabilistic method.tex" 1779902009.6341 4168 64aeba89c510effeb3306b89d24b31ef ""
+  "Johannes - Mathematics Extended Essay - Probabilistic method.toc" 1779902010.59316 595 0152364e4b837f46d46f775001995a3f "pdflatex"
   (generated)
   "Johannes - Mathematics Extended Essay - Probabilistic method.aux"
   "Johannes - Mathematics Extended Essay - Probabilistic method.bcf"
