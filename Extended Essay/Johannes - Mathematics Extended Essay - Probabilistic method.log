@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  27 MAY 2026 19:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.14)  27 MAY 2026 19:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -668,16 +668,16 @@ Package logreq Info: Writing requests to '"Johannes - Mathematics Extended Essay
 Here is how much of TeX's memory you used:
  19279 strings out of 467525
  333665 string characters out of 5418982
- 1194338 words of memory out of 5000000
+ 1195338 words of memory out of 5000000
  47971 multiletter control sequences out of 15000+600000
  639590 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,877b,1824s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on "Johannes - Mathematics Extended Essay - Probabilistic method.pdf" (3 pages, 94694 bytes).
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on "Johannes - Mathematics Extended Essay - Probabilistic method.pdf" (3 pages, 136246 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  12 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

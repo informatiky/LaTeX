@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Johannes - Mathematics Extended Essay - Probabilistic method"] 1779901798.67382 "Johannes - Mathematics Extended Essay - Probabilistic method.bcf" "Johannes - Mathematics Extended Essay - Probabilistic method.bbl" "Johannes - Mathematics Extended Essay - Probabilistic method" 1779901821.48218 0
-  "Johannes - Mathematics Extended Essay - Probabilistic method.bcf" 1779901821.41506 108568 4094b7f26d3f38acb8b0d0ef16ef7b9d "pdflatex"
+["biber Johannes - Mathematics Extended Essay - Probabilistic method"] 1779901798.67382 "Johannes - Mathematics Extended Essay - Probabilistic method.bcf" "Johannes - Mathematics Extended Essay - Probabilistic method.bbl" "Johannes - Mathematics Extended Essay - Probabilistic method" 1779901970.74373 0
+  "Johannes - Mathematics Extended Essay - Probabilistic method.bcf" 1779901970.66071 108568 4094b7f26d3f38acb8b0d0ef16ef7b9d "pdflatex"
   (generated)
   "Johannes - Mathematics Extended Essay - Probabilistic method.bbl"
   "Johannes - Mathematics Extended Essay - Probabilistic method.blg"
   (rewritten before read)
-["pdflatex"] 1779901820.63549 "/Users/johannes/Duzzle/LaTeX/Extended Essay/Johannes - Mathematics Extended Essay - Probabilistic method.tex" "Johannes - Mathematics Extended Essay - Probabilistic method.pdf" "Johannes - Mathematics Extended Essay - Probabilistic method" 1779901821.48244 0
-  "/Users/johannes/Duzzle/LaTeX/Extended Essay/Johannes - Mathematics Extended Essay - Probabilistic method.tex" 1779901799.32306 4140 09936c57524ec8d2b9cbf5dedf859043 ""
+["pdflatex"] 1779901969.75221 "/Users/johannes/Duzzle/LaTeX/Extended Essay/Johannes - Mathematics Extended Essay - Probabilistic method.tex" "Johannes - Mathematics Extended Essay - Probabilistic method.pdf" "Johannes - Mathematics Extended Essay - Probabilistic method" 1779901970.74397 0
+  "/Users/johannes/Duzzle/LaTeX/Extended Essay/Johannes - Mathematics Extended Essay - Probabilistic method.tex" 1779901969.51992 4168 518a0996197a2b9c270225f600004b55 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -31,6 +31,11 @@
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb" 1215737283 140176 d4962f948b4cc0adf4d3dde77a128c95 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb" 1215737283 139826 9213617a7cb78635fc326b859c0b2273 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1215737283 136101 f533469f523533d38317ab5729d00c8a ""
@@ -115,12 +120,12 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1778796069 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1778795937 3636778 24fa674e5f31394de642cd001dd2ec33 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "Johannes - Mathematics Extended Essay - Probabilistic method.aux" 1779901821.41251 1248 8f3f852baf60ee0a3c72f7987082030d "pdflatex"
+  "Johannes - Mathematics Extended Essay - Probabilistic method.aux" 1779901970.65837 1248 8f3f852baf60ee0a3c72f7987082030d "pdflatex"
   "Johannes - Mathematics Extended Essay - Probabilistic method.bbl" 1779901819.7136 466 76d65a242ec496c9b4361af646ff12cb "biber Johannes - Mathematics Extended Essay - Probabilistic method"
-  "Johannes - Mathematics Extended Essay - Probabilistic method.out" 1779901821.41406 1217 60e094e6a9efd0ac7be4c097b84b22db "pdflatex"
-  "Johannes - Mathematics Extended Essay - Probabilistic method.run.xml" 1779901821.41571 2728 be48f062d40e031ce53bef06f4f3592e "pdflatex"
-  "Johannes - Mathematics Extended Essay - Probabilistic method.tex" 1779901799.32306 4140 09936c57524ec8d2b9cbf5dedf859043 ""
-  "Johannes - Mathematics Extended Essay - Probabilistic method.toc" 1779901821.41577 595 0152364e4b837f46d46f775001995a3f "pdflatex"
+  "Johannes - Mathematics Extended Essay - Probabilistic method.out" 1779901970.6597 1217 60e094e6a9efd0ac7be4c097b84b22db "pdflatex"
+  "Johannes - Mathematics Extended Essay - Probabilistic method.run.xml" 1779901970.66137 2728 be48f062d40e031ce53bef06f4f3592e "pdflatex"
+  "Johannes - Mathematics Extended Essay - Probabilistic method.tex" 1779901969.51992 4168 518a0996197a2b9c270225f600004b55 ""
+  "Johannes - Mathematics Extended Essay - Probabilistic method.toc" 1779901970.66143 595 0152364e4b837f46d46f775001995a3f "pdflatex"
   (generated)
   "Johannes - Mathematics Extended Essay - Probabilistic method.aux"
   "Johannes - Mathematics Extended Essay - Probabilistic method.bcf"
