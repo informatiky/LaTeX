@@ -168,9 +168,50 @@ Another application of edge colouring are Ramsey numbers \( R(k,l) \). They are 
 
 The most common example is \( R(3,3) = 6 \). Below is a randomly generated graph with 6 nodes and random colouring, with the green triangle (clique of size 3 makes a triangle) clearly visible.
 
-\begin{tikzpicture}
-
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    vertex/.style={circle, draw=black, fill=white, thick, minimum size=7mm, font=\small},
+    red edge/.style={draw=red!80!black, line width=1.8pt},
+    green edge/.style={draw=green!60!black, line width=1.8pt},
+    scale=2.2
+]
+ 
+% --- Vertices arranged in a regular hexagon ---
+\foreach \i/\label in {1/1, 2/2, 3/3, 4/4, 5/5, 6/6} {
+    \node[vertex] (v\i) at ({90 + (\i-1)*60}:1) {\label};
+}
+ 
+% --- Edges (K_6: all 15 pairs) ---
+% Colouring chosen so that:
+%   Monochromatic RED triangle:   v1-v2-v4
+%   Monochromatic GREEN triangle: v3-v5-v6 (and v1-v3-v5 is also green)
+ 
+% Red edges
+\draw[red edge] (v1)--(v2);
+\draw[red edge] (v1)--(v4);
+\draw[red edge] (v2)--(v4);
+\draw[red edge] (v2)--(v3);
+\draw[red edge] (v3)--(v4);
+\draw[red edge] (v4)--(v5);
+\draw[red edge] (v5)--(v6);
+\draw[red edge] (v1)--(v6);
+ 
+% Green edges
+\draw[green edge] (v1)--(v3);
+\draw[green edge] (v1)--(v5);
+\draw[green edge] (v2)--(v5);
+\draw[green edge] (v2)--(v6);
+\draw[green edge] (v3)--(v5);
+\draw[green edge] (v3)--(v6);
+\draw[green edge] (v4)--(v6);
+ 
 \end{tikzpicture}
+\caption{A 2-colouring of $K_6$ (red and green). By Ramsey's theorem $R(3,3)=6$,
+every such colouring must contain a monochromatic triangle.
+Here the red triangle is $\{1,2,4\}$ and the green triangle is $\{3,5,6\}$.}
+\label{fig:ramsey33}
+\end{figure}
 
 On the other hand, below is a graph with 5 nodes where there are no monochromatic cliques, showing that \( R(3,3) > 5 \)
 
