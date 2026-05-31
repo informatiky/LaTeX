@@ -215,7 +215,38 @@ Here the red triangle is $\{1,2,4\}$ and the green triangle is $\{3,5,6\}$.}
 
 On the other hand, below is a graph with 5 nodes where there are no monochromatic cliques, showing that \( R(3,3) > 5 \)
 
-
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    vertex/.style={circle, draw=black, fill=white, thick, minimum size=7mm, font=\small},
+    red edge/.style={draw=red!80!black, line width=1.8pt},
+    green edge/.style={draw=green!60!black, line width=1.8pt},
+    scale=2.2
+]
+ 
+% --- Vertices arranged in a regular pentagon ---
+\foreach \i in {1,...,5} {
+    \node[vertex] (v\i) at ({90 + (\i-1)*72}:1) {\i};
+}
+ 
+% --- Red edges: outer pentagon cycle ---
+\draw[red edge] (v1)--(v2);
+\draw[red edge] (v2)--(v3);
+\draw[red edge] (v3)--(v4);
+\draw[red edge] (v4)--(v5);
+\draw[red edge] (v5)--(v1);
+ 
+% --- Green edges: inner pentagram (skip-one connections) ---
+\draw[green edge] (v1)--(v3);
+\draw[green edge] (v3)--(v5);
+\draw[green edge] (v5)--(v2);
+\draw[green edge] (v2)--(v4);
+\draw[green edge] (v4)--(v1);
+ 
+\end{tikzpicture}
+\caption{}
+\label{fig:ramsey33-k5}
+\end{figure}
 
 \section{Predicting clique sizes in Scale Free Networks}
 -	Setting out the problem: we want to find specific clique sizes in a scale free network with 4 hubs
