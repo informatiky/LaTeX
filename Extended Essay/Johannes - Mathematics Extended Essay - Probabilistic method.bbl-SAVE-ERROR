@@ -16,5 +16,41 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{ScalefreeNetwork2026}{inreference}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A scale-free network is a network whose degree distribution follows a power law, at least asymptotically. That is, the fraction P(k) of nodes in the network having k connections to other nodes goes for large values of k as P ( k ) ∼ k − γ \{\textbackslash displaystyle P(k)\textbackslash{} \textbackslash sim \textbackslash{} k\textasciicircum\{\textbackslash boldsymbol \{-\textbackslash gamma \}\}\} where γ \{\textbackslash displaystyle \textbackslash gamma \} is a parameter whose value is typically in the range 2 {$<$} γ {$<$} 3 \{\textbackslash textstyle 2{$<\backslash$}gamma {$<$}3\} (wherein the second moment (scale parameter) of k − γ \{\textbackslash displaystyle k\textasciicircum\{\textbackslash boldsymbol \{-\textbackslash gamma \}\}\} is infinite but the first moment is finite), although occasionally it may lie outside these bounds. The name "scale-free" could be explained by the fact that some moments of the degree distribution are not defined, so that the network does not have a characteristic scale or "size". Preferential attachment and the fitness model have been proposed as mechanisms to explain the power law degree distributions in real networks. Alternative models such as super-linear preferential attachment and second-neighbour preferential attachment may appear to generate transient scale-free networks, but the degree distribution deviates from a power law as networks become very large.}
+      \field{annotation}{Page Version ID: 1347050999}
+      \field{booktitle}{Wikipedia}
+      \field{day}{4}
+      \field{hour}{11}
+      \field{langid}{english}
+      \field{minute}{33}
+      \field{month}{4}
+      \field{second}{1}
+      \field{timezone}{Z}
+      \field{title}{Scale-Free Network}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/johannes/Zotero/storage/CCRED7MF/index.html
+      \endverb
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Scale-free_network&oldid=1347050999
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Scale-free_network&oldid=1347050999
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
