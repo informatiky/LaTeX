@@ -388,7 +388,7 @@ Where the leading two is there because we do not care about which of the two col
 Since there are \( \binom{n}{k} \) possible arrangements of the clique size k, we can then multiply that to find the probability of any clique of size k of any colour to be monochromatic:
 
 \begin{equation}
-   P(\text{there exists a monochromatic clique } K_k) \ \binom{n}{k} \times 2^{1-\binom{k}{2}}
+   P(\text{there exists a monochromatic clique } K_k) \leq \binom{n}{k} \times 2^{1-\binom{k}{2}}
 \end{equation}
 
 By the assumption of the theorem, however, we know that:
