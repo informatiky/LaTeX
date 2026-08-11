@@ -154,7 +154,7 @@ where \( \gamma \) is some exponent and \( P_{(deg)}(k) \) the probability that 
 To generate scale free networks, different methods exist. The greater category of the most commonly used model is called \textit{configuration model} because it allows the degree of every node to be pre-defined. Since scale free networks are defined by their degree separation that is a requirement. When it is of interest to fix the degree sequence exactly it is possible to make use of a microcanonical model which defines the exact degree of every node in the graph and randomly draws edges according to these requirements. The diagram below shows how every node has a predefined degree and only the exact connections are generated randomly.
 
 \begin{tikzpicture}[
-    vertex/.style={circle, draw, fill=gray!15, minimum size=9mm, font=\small},
+    vertex/.style={circle, draw=black, fill=none, minimum size=9mm},
     stub/.style={thick},
     stublabel/.style={font=\scriptsize},
     edgeline/.style={thick, -}
@@ -162,80 +162,68 @@ To generate scale free networks, different methods exist. The greater category o
 
 %=== PANEL 1: Vertices with unmatched stubs ===
 \begin{scope}
-    \node[vertex] (A) at (0,1.5)    {A};
-    \node[vertex] (B) at (2.5,2.5)  {B};
-    \node[vertex] (C) at (5,1.5)    {C};
-    \node[vertex] (D) at (5,-1)     {D};
-    \node[vertex] (E) at (2.5,-2)   {E};
-    \node[vertex] (F) at (0,-1)     {F};
-    \node[vertex] (G) at (2.5,0.25) {G};
+    % Hub-and-spoke layout: one high-degree hub, rest low-degree
+    \node[vertex] (A) at (2.5,0)    {}; % hub, degree 5
+    \node[vertex] (B) at (0,1.5)    {}; % degree 3
+    \node[vertex] (C) at (0,-1.5)   {}; % degree 2
+    \node[vertex] (D) at (5,1.5)    {}; % degree 1
+    \node[vertex] (E) at (5,-1.5)   {}; % degree 1
+    \node[vertex] (F) at (2.5,2.75) {}; % degree 1
+    \node[vertex] (G) at (2.5,-2.75){}; % degree 1
 
-    % degree labels
-    \node[left=2mm of A, font=\scriptsize]  {$d_A=3$};
-    \node[above=2mm of B, font=\scriptsize] {$d_B=2$};
-    \node[right=2mm of C, font=\scriptsize] {$d_C=3$};
-    \node[right=2mm of D, font=\scriptsize] {$d_D=2$};
-    \node[below=2mm of E, font=\scriptsize] {$d_E=2$};
-    \node[left=2mm of F, font=\scriptsize]  {$d_F=1$};
-    \node[below=2mm of G, font=\scriptsize] {$d_G=3$};
+    % Stubs for hub A (5)
+    \draw[stub] (A) ++(150:5mm) -- ++(150:8mm) node[stublabel, above]{1};
+    \draw[stub] (A) ++(120:5mm) -- ++(120:8mm) node[stublabel, above]{2};
+    \draw[stub] (A) ++(-150:5mm)-- ++(-150:8mm) node[stublabel, below]{3};
+    \draw[stub] (A) ++(-120:5mm)-- ++(-120:8mm) node[stublabel, below]{4};
+    \draw[stub] (A) ++(0:5mm)   -- ++(0:8mm)   node[stublabel, right]{5};
 
-    % Stubs for A (3)
-    \draw[stub] (A) ++(160:5mm) -- ++(160:8mm) node[stublabel, above]{1};
-    \draw[stub] (A) ++(200:5mm) -- ++(200:8mm) node[stublabel, left]{2};
-    \draw[stub] (A) ++(240:5mm) -- ++(240:8mm) node[stublabel, below]{3};
+    % Stubs for B (3)
+    \draw[stub] (B) ++(150:5mm) -- ++(150:8mm) node[stublabel, above]{6};
+    \draw[stub] (B) ++(200:5mm) -- ++(200:8mm) node[stublabel, left]{7};
+    \draw[stub] (B) ++(60:5mm)  -- ++(60:8mm)  node[stublabel, above]{8};
 
-    % Stubs for B (2)
-    \draw[stub] (B) ++(70:5mm)  -- ++(70:8mm)  node[stublabel, above]{4};
-    \draw[stub] (B) ++(110:5mm) -- ++(110:8mm) node[stublabel, above]{5};
+    % Stubs for C (2)
+    \draw[stub] (C) ++(200:5mm) -- ++(200:8mm) node[stublabel, left]{9};
+    \draw[stub] (C) ++(-60:5mm) -- ++(-60:8mm) node[stublabel, below]{10};
 
-    % Stubs for C (3)
-    \draw[stub] (C) ++(20:5mm)  -- ++(20:8mm)  node[stublabel, above]{6};
-    \draw[stub] (C) ++(0:5mm)   -- ++(0:8mm)   node[stublabel, right]{7};
-    \draw[stub] (C) ++(-20:5mm) -- ++(-20:8mm) node[stublabel, below]{8};
+    % Stub for D (1)
+    \draw[stub] (D) ++(30:5mm)  -- ++(30:8mm)  node[stublabel, right]{11};
 
-    % Stubs for D (2)
-    \draw[stub] (D) ++(0:5mm)   -- ++(0:8mm)   node[stublabel, right]{9};
-    \draw[stub] (D) ++(-40:5mm) -- ++(-40:8mm) node[stublabel, below]{10};
-
-    % Stubs for E (2)
-    \draw[stub] (E) ++(-70:5mm) -- ++(-70:8mm) node[stublabel, below]{11};
-    \draw[stub] (E) ++(-110:5mm)-- ++(-110:8mm) node[stublabel, below]{12};
+    % Stub for E (1)
+    \draw[stub] (E) ++(-30:5mm) -- ++(-30:8mm) node[stublabel, right]{12};
 
     % Stub for F (1)
-    \draw[stub] (F) ++(200:5mm) -- ++(200:8mm) node[stublabel, left]{13};
+    \draw[stub] (F) ++(90:5mm)  -- ++(90:8mm)  node[stublabel, above]{13};
 
-    % Stubs for G (3)
-    \draw[stub] (G) ++(30:5mm)  -- ++(30:8mm)  node[stublabel, right]{14};
-    \draw[stub] (G) ++(150:5mm) -- ++(150:8mm) node[stublabel, left]{15};
-    \draw[stub] (G) ++(270:5mm) -- ++(270:8mm) node[stublabel, below]{16};
+    % Stub for G (1)
+    \draw[stub] (G) ++(-90:5mm) -- ++(-90:8mm) node[stublabel, below]{14};
 
-    \node[below=22mm of E, xshift=0mm, font=\small\itshape]
-        {(a) Stubs generated from the degree sequence};
+    \node[below=32mm of C, xshift=25mm, font=\small\itshape]
+        {(a) Stubs generated from a scale-free degree sequence};
 \end{scope}
 
 %=== PANEL 2: Same vertices, stubs paired into a realized graph ===
 \begin{scope}[xshift=8.5cm]
-    \node[vertex] (A2) at (0,1.5)    {A};
-    \node[vertex] (B2) at (2.5,2.5)  {B};
-    \node[vertex] (C2) at (5,1.5)    {C};
-    \node[vertex] (D2) at (5,-1)     {D};
-    \node[vertex] (E2) at (2.5,-2)   {E};
-    \node[vertex] (F2) at (0,-1)     {F};
-    \node[vertex] (G2) at (2.5,0.25) {G};
+    \node[vertex] (A2) at (2.5,0)    {};
+    \node[vertex] (B2) at (0,1.5)    {};
+    \node[vertex] (C2) at (0,-1.5)   {};
+    \node[vertex] (D2) at (5,1.5)    {};
+    \node[vertex] (E2) at (5,-1.5)   {};
+    \node[vertex] (F2) at (2.5,2.75) {};
+    \node[vertex] (G2) at (2.5,-2.75){};
 
-    % One possible perfect matching of the 16 stub-labels into 8 edges
-    % (1,4)->A-B, (2,13)->A-F, (3,16)->A-G, (5,6)->B-C,
-    % (7,9)->C-D, (8,15)->C-G, (10,11)->D-E, (12,14)->E-G
-    \draw[edgeline] (A2) -- (B2) node[midway, above, font=\scriptsize]{1-4};
-    \draw[edgeline] (A2) -- (F2) node[midway, left, font=\scriptsize]{2-13};
-    \draw[edgeline] (A2) -- (G2) node[midway, above, font=\scriptsize]{3-16};
-    \draw[edgeline] (B2) -- (C2) node[midway, above, font=\scriptsize]{5-6};
-    \draw[edgeline] (C2) -- (D2) node[midway, right, font=\scriptsize]{7-9};
-    \draw[edgeline] (C2) -- (G2) node[midway, above, font=\scriptsize]{8-15};
-    \draw[edgeline] (D2) -- (E2) node[midway, below, font=\scriptsize]{10-11};
-    \draw[edgeline] (E2) -- (G2) node[midway, below, font=\scriptsize]{12-14};
+    % One possible matching: hub A takes 4 of its 5 stubs to the
+    % degree-1 nodes, remaining stubs pair B-C, closing the rest
+    \draw[edgeline] (A2) -- (D2) node[midway, above, font=\scriptsize]{2-11};
+    \draw[edgeline] (A2) -- (E2) node[midway, below, font=\scriptsize]{4-12};
+    \draw[edgeline] (A2) -- (F2) node[midway, above, font=\scriptsize]{1-13};
+    \draw[edgeline] (A2) -- (G2) node[midway, below, font=\scriptsize]{3-14};
+    \draw[edgeline] (A2) -- (B2) node[midway, above, font=\scriptsize]{5-6};
+    \draw[edgeline] (B2) -- (C2) node[midway, left, font=\scriptsize]{7-9};
+    \draw[edgeline] (B2) to[bend left=25] node[midway, above, font=\scriptsize]{8-10} (C2);
 
-    \node[below=22mm of E2, xshift=0mm, font=\small\itshape]
+    \node[below=32mm of C2, xshift=25mm, font=\small\itshape]
         {(b) Stubs paired uniformly at random into edges};
 \end{scope}
 
