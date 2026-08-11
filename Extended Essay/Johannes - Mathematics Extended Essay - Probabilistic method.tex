@@ -162,7 +162,6 @@ To generate scale free networks, different methods exist. The greater category o
 
 %=== PANEL 1: Vertices with unmatched stubs ===
 \begin{scope}
-    % Hub-and-spoke layout: one high-degree hub, rest low-degree
     \node[vertex] (A) at (2.5,0)    {}; % hub, degree 5
     \node[vertex] (B) at (0,1.5)    {}; % degree 3
     \node[vertex] (C) at (0,-1.5)   {}; % degree 2
@@ -203,7 +202,7 @@ To generate scale free networks, different methods exist. The greater category o
         {(a) Stubs generated from a scale-free degree sequence};
 \end{scope}
 
-%=== PANEL 2: Same vertices, stubs paired into a realized graph ===
+%=== PANEL 2: Same vertices, stubs paired into a simple realized graph ===
 \begin{scope}[xshift=8.5cm]
     \node[vertex] (A2) at (2.5,0)    {};
     \node[vertex] (B2) at (0,1.5)    {};
@@ -213,18 +212,18 @@ To generate scale free networks, different methods exist. The greater category o
     \node[vertex] (F2) at (2.5,2.75) {};
     \node[vertex] (G2) at (2.5,-2.75){};
 
-    % One possible matching: hub A takes 4 of its 5 stubs to the
-    % degree-1 nodes, remaining stubs pair B-C, closing the rest
-    \draw[edgeline] (A2) -- (D2) node[midway, above, font=\scriptsize]{2-11};
+    % Matching: A-B, A-C, A-D, A-E, A-F, B-C, B-G
+    % Every stub 1-14 used exactly once, no multi-edges, no self-loops
+    \draw[edgeline] (A2) -- (B2) node[midway, above, font=\scriptsize]{1-6};
+    \draw[edgeline] (A2) -- (C2) node[midway, left, font=\scriptsize]{2-9};
+    \draw[edgeline] (A2) -- (D2) node[midway, above, font=\scriptsize]{3-11};
     \draw[edgeline] (A2) -- (E2) node[midway, below, font=\scriptsize]{4-12};
-    \draw[edgeline] (A2) -- (F2) node[midway, above, font=\scriptsize]{1-13};
-    \draw[edgeline] (A2) -- (G2) node[midway, below, font=\scriptsize]{3-14};
-    \draw[edgeline] (A2) -- (B2) node[midway, above, font=\scriptsize]{5-6};
-    \draw[edgeline] (B2) -- (C2) node[midway, left, font=\scriptsize]{7-9};
-    \draw[edgeline] (B2) to[bend left=25] node[midway, above, font=\scriptsize]{8-10} (C2);
+    \draw[edgeline] (A2) -- (F2) node[midway, above, font=\scriptsize]{5-13};
+    \draw[edgeline] (B2) -- (C2) node[midway, left, font=\scriptsize]{7-10};
+    \draw[edgeline] (B2) -- (G2) node[midway, above, font=\scriptsize]{8-14};
 
     \node[below=32mm of C2, xshift=25mm, font=\small\itshape]
-        {(b) Stubs paired uniformly at random into edges};
+        {(b) Stubs paired into a simple realized graph};
 \end{scope}
 
 \end{tikzpicture}
