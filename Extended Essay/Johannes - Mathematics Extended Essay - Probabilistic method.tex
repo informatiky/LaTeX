@@ -154,61 +154,48 @@ where \( \gamma \) is some exponent and \( P_{(deg)}(k) \) the probability that 
 To generate scale free networks, different methods exist. The greater category of the most commonly used model is called \textit{configuration model} because it allows the degree of every node to be pre-defined. Since scale free networks are defined by their degree separation that is a requirement. When it is of interest to fix the degree sequence exactly it is possible to make use of a microcanonical model which defines the exact degree of every node in the graph and randomly draws edges according to these requirements. The diagram below shows how every node has a predefined degree and only the exact connections are generated randomly.
 
 \begin{tikzpicture}[
-    vertex/.style={circle, draw, fill=gray!15, minimum size=9mm, font=\small},
-    stub/.style={thick},
-    stublabel/.style={font=\scriptsize},
-    edgeline/.style={thick, -}
+    vertex/.style={circle, draw=black, fill=white, thick, minimum size=7mm, font=\small},
+    red edge/.style={draw=red!80!black, line width=1.8pt},
+    green edge/.style={draw=green!60!black, line width=1.8pt},
+    scale=2.2
 ]
 
-%=== PANEL 1: Vertices with unmatched stubs ===
-\begin{scope}
-    \node[vertex] (A1) at (0,0)   {A};
-    \node[vertex] (B1) at (3,1.2) {B};
-    \node[vertex] (C1) at (3,-1.2){C};
-    \node[vertex] (D1) at (6,0)   {D};
+% --- Vertices arranged in a regular heptagon ---
+\foreach \i/\label in {1/1, 2/2, 3/3, 4/4, 5/5, 6/6, 7/7} {
+    \node[vertex] (v\i) at ({90 + (\i-1)*(360/7)}:1) {\label};
+}
 
-    % degree labels
-    \node[below=2mm of A1, font=\scriptsize] {$d_A=3$};
-    \node[above=2mm of B1, font=\scriptsize] {$d_B=2$};
-    \node[below=2mm of C1, font=\scriptsize] {$d_C=2$};
-    \node[below=2mm of D1, font=\scriptsize] {$d_D=1$};
+% --- Edges (K_7: all 21 pairs) ---
+% Coloured by circular "distance" between vertex indices:
+%   distance 1 and 2  -> red  (14 edges)
+%   distance 3         -> green (7 edges)
 
-    % Stubs for A (3), pointing outward at different angles
-    \draw[stub] (A1) ++(150:5mm) -- ++(150:8mm) node[stublabel, above]{1};
-    \draw[stub] (A1) ++(180:5mm) -- ++(180:8mm) node[stublabel, left]{2};
-    \draw[stub] (A1) ++(210:5mm) -- ++(210:8mm) node[stublabel, below]{3};
+% Red edges: distance 1
+\draw[red edge] (v1)--(v2);
+\draw[red edge] (v2)--(v3);
+\draw[red edge] (v3)--(v4);
+\draw[red edge] (v4)--(v5);
+\draw[red edge] (v5)--(v6);
+\draw[red edge] (v6)--(v7);
+\draw[red edge] (v7)--(v1);
 
-    % Stubs for B (2)
-    \draw[stub] (B1) ++(60:5mm)  -- ++(60:8mm)  node[stublabel, above]{4};
-    \draw[stub] (B1) ++(0:5mm)   -- ++(0:8mm)   node[stublabel, right]{5};
+% Red edges: distance 2
+\draw[red edge] (v1)--(v3);
+\draw[red edge] (v2)--(v4);
+\draw[red edge] (v3)--(v5);
+\draw[red edge] (v4)--(v6);
+\draw[red edge] (v5)--(v7);
+\draw[red edge] (v6)--(v1);
+\draw[red edge] (v7)--(v2);
 
-    % Stubs for C (2)
-    \draw[stub] (C1) ++(-60:5mm) -- ++(-60:8mm) node[stublabel, below]{6};
-    \draw[stub] (C1) ++(0:5mm)   -- ++(0:8mm)   node[stublabel, right]{7};
-
-    % Stub for D (1)
-    \draw[stub] (D1) ++(0:5mm)   -- ++(0:8mm)   node[stublabel, right]{8};
-
-    \node[below=15mm of C1, xshift=15mm, font=\small\itshape]
-        {(a) Stubs generated from the degree sequence};
-\end{scope}
-
-%=== PANEL 2: Same vertices, stubs paired into a realized graph ===
-\begin{scope}[xshift=9cm]
-    \node[vertex] (A2) at (0,0)   {A};
-    \node[vertex] (B2) at (3,1.2) {B};
-    \node[vertex] (C2) at (3,-1.2){C};
-    \node[vertex] (D2) at (6,0)   {D};
-
-    % Matching realized: (1,5)->A-B, (2,6)->A-C, (3,8)->A-D, (4,7)->B-C
-    \draw[edgeline] (A2) -- (B2) node[midway, above, font=\scriptsize]{1--5};
-    \draw[edgeline] (A2) -- (C2) node[midway, below, font=\scriptsize]{2--6};
-    \draw[edgeline] (A2) -- (D2) node[midway, above, font=\scriptsize]{3--8};
-    \draw[edgeline] (B2) -- (C2) node[midway, right, font=\scriptsize]{4--7};
-
-    \node[below=15mm of C2, xshift=15mm, font=\small\itshape]
-        {(b) Stubs paired uniformly at random into edges};
-\end{scope}
+% Green edges: distance 3
+\draw[green edge] (v1)--(v4);
+\draw[green edge] (v2)--(v5);
+\draw[green edge] (v3)--(v6);
+\draw[green edge] (v4)--(v7);
+\draw[green edge] (v5)--(v1);
+\draw[green edge] (v6)--(v2);
+\draw[green edge] (v7)--(v3);
 
 \end{tikzpicture}
 
