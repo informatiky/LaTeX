@@ -19,9 +19,382 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{alonProbabilisticMethod2008}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f7a4a7818d41bcfdc8addc9e20cdcbd8}{%
+           family={Alon},
+           familyi={A\bibinitperiod},
+           given={Noga},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a457f44aeb2ba9f036038cea801bc534}{%
+           family={Spencer},
+           familyi={S\bibinitperiod},
+           given={Joel\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{ac7d8dbaf8c4f9005b765502fbc46e11}
+      \strng{fullhash}{ac7d8dbaf8c4f9005b765502fbc46e11}
+      \strng{fullhashraw}{ac7d8dbaf8c4f9005b765502fbc46e11}
+      \strng{bibnamehash}{ac7d8dbaf8c4f9005b765502fbc46e11}
+      \strng{authorbibnamehash}{ac7d8dbaf8c4f9005b765502fbc46e11}
+      \strng{authornamehash}{ac7d8dbaf8c4f9005b765502fbc46e11}
+      \strng{authorfullhash}{ac7d8dbaf8c4f9005b765502fbc46e11}
+      \strng{authorfullhashraw}{ac7d8dbaf8c4f9005b765502fbc46e11}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3. ed}
+      \field{langid}{english}
+      \field{title}{The Probabilistic Method}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/johannes/Zotero/storage/VICE3LMU/Alon and Spencer - 2008 - The probabilistic method.pdf
+      \endverb
+    \endentry
+    \entry{zotero-item-420}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=41cfc1e13c910e798cdd3538845fe59c}{%
+           family={Chachamis},
+           familyi={C\bibinitperiod},
+           given={Christos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{41cfc1e13c910e798cdd3538845fe59c}
+      \strng{fullhash}{41cfc1e13c910e798cdd3538845fe59c}
+      \strng{fullhashraw}{41cfc1e13c910e798cdd3538845fe59c}
+      \strng{bibnamehash}{41cfc1e13c910e798cdd3538845fe59c}
+      \strng{authorbibnamehash}{41cfc1e13c910e798cdd3538845fe59c}
+      \strng{authornamehash}{41cfc1e13c910e798cdd3538845fe59c}
+      \strng{authorfullhash}{41cfc1e13c910e798cdd3538845fe59c}
+      \strng{authorfullhashraw}{41cfc1e13c910e798cdd3538845fe59c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{month}{5}
+      \field{title}{Ramsey {{Numbers}}}
+      \field{type}{Lecture}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb math.mit.edu/~apost/courses/18.204_2018/ramsey-numbers.pdf
+      \endverb
+      \verb{url}
+      \verb math.mit.edu/~apost/courses/18.204_2018/ramsey-numbers.pdf
+      \endverb
+    \endentry
+    \entry{chungAverageDistancesRandom2002}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1d2495bc5132ebe0aba48b654d7adca3}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c61c76e8ee84b26e87b8f0c01b1c553}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Linyuan},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Proceedings of the National Academy of Sciences}%
+      }
+      \strng{namehash}{4d27eeeb47eb489b5d79839ff2e3b861}
+      \strng{fullhash}{4d27eeeb47eb489b5d79839ff2e3b861}
+      \strng{fullhashraw}{4d27eeeb47eb489b5d79839ff2e3b861}
+      \strng{bibnamehash}{4d27eeeb47eb489b5d79839ff2e3b861}
+      \strng{authorbibnamehash}{4d27eeeb47eb489b5d79839ff2e3b861}
+      \strng{authornamehash}{4d27eeeb47eb489b5d79839ff2e3b861}
+      \strng{authorfullhash}{4d27eeeb47eb489b5d79839ff2e3b861}
+      \strng{authorfullhashraw}{4d27eeeb47eb489b5d79839ff2e3b861}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Random graph theory is used to examine the “small-world phenomenon”; any two strangers are connected through a short chain of mutual acquaintances. We will show that for certain families of random graphs with given expected degrees the average distance is almost surely of order log n/log d̃, where d̃ is the weighted average of the sum of squares of the expected degrees. Of particular interest are power law random graphs in which the number of vertices of degree k is proportional to 1/kβ for some fixed exponent β. For the case of β {$>$} 3, we prove that the average distance of the power law graphs is almost surely of order log n/log d̃. However, many Internet, social, and citation networks are power law graphs with exponents in the range 2 {$<$} β {$<$} 3 for which the power law random graphs have average distance almost surely of order log log n, but have diameter of order log n (provided having some mild constraints for the average distance and maximum degree). In particular, these graphs contain a dense subgraph, which we call the core, having nc/log log n vertices. Almost all vertices are within distance log log n of the core although there are vertices at distance log n from the core.}
+      \field{day}{10}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{12}
+      \field{number}{25}
+      \field{title}{The Average Distances in Random Graphs with given Expected Degrees}
+      \field{volume}{99}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{15879\bibrangedash 15882}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1073/pnas.252631999
+      \endverb
+      \verb{file}
+      \verb /Users/johannes/Zotero/storage/3LCDAF5U/Chung and Lu - 2002 - The average distances in random graphs with given expected degrees.pdf
+      \endverb
+    \endentry
+    \entry{CombinationsPermutations}{online}{}{}
+      \list{organization}{1}{%
+        {Math is Fun}%
+      }
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In English we use the word combination loosely, without thinking if the order of things is important. In other words:}
+      \field{langid}{english}
+      \field{title}{Combinations and {{Permutations}}}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/johannes/Zotero/storage/TUGBCAHB/combinations-permutations.html
+      \endverb
+      \verb{urlraw}
+      \verb www.mathsisfun.com/combinatorics/combinations-permutations.html
+      \endverb
+      \verb{url}
+      \verb www.mathsisfun.com/combinatorics/combinations-permutations.html
+      \endverb
+    \endentry
+    \entry{fasinoGeneratingLargeScalefree2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ca9bb01881d335845d3b716e86b7f74c}{%
+           family={Fasino},
+           familyi={F\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6d40502fac7688aa237c00353db5fba}{%
+           family={Tonetto},
+           familyi={T\bibinitperiod},
+           given={Arianna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0d27b0cd895cfc9f467f1063051f627}{%
+           family={Tudisco},
+           familyi={T\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{158cc076428fd65d3a0371536014f70e}
+      \strng{fullhash}{bf7c7fea4b32e080d6df22a33bf7f3ab}
+      \strng{fullhashraw}{bf7c7fea4b32e080d6df22a33bf7f3ab}
+      \strng{bibnamehash}{158cc076428fd65d3a0371536014f70e}
+      \strng{authorbibnamehash}{158cc076428fd65d3a0371536014f70e}
+      \strng{authornamehash}{158cc076428fd65d3a0371536014f70e}
+      \strng{authorfullhash}{bf7c7fea4b32e080d6df22a33bf7f3ab}
+      \strng{authorfullhashraw}{bf7c7fea4b32e080d6df22a33bf7f3ab}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Random graph models are a recurring tool-of-the-trade for studying network structural properties and benchmarking community detection and other network algorithms. Moreover, they serve as test-bed generators for studying diffusion and routing processes on networks. In this paper, we illustrate how to generate large random graphs having a power-law degree distribution using the Chung–Lu model. In particular, we are concerned with the fulfillment of a fundamental hypothesis that must be placed on the model parameters, without which the generated graphs lose all the theoretical properties of the model, notably, the controllability of the expected node degrees and the absence of correlations between the degrees of two nodes joined by an edge. We provide explicit formulas for the model parameters to generate random graphs that have several desirable properties, including a power-law degree distribution with any exponent larger than 2, a prescribed asymptotic behavior of the largest and average expected degrees, and the presence of a giant component.}
+      \field{issn}{1097-0037}
+      \field{journaltitle}{Networks}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{title}{Generating Large Scale-Free Networks with the {{Chung}}–{{Lu}} Random Graph Model}
+      \field{volume}{78}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{174\bibrangedash 187}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1002/net.22012
+      \endverb
+      \verb{file}
+      \verb /Users/johannes/Zotero/storage/BQQ57J5E/Fasino et al. - 2021 - Generating large scale-free networks with the Chung–Lu random graph model.pdf;/Users/johannes/Zotero/storage/KDJZTKHJ/net.html
+      \endverb
+      \keyw{Chung–Lu model,generative models,giant component,random graphs,scale-free networks}
+    \endentry
+    \entry{jursaCliqueNumberEstimates2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2b4d83d69a484b86356f790b154ee4f6}{%
+           family={Jursa},
+           familyi={J\bibinitperiod},
+           given={Andrej},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=961969f31cf56d583124abdcd5af741d}{%
+           family={Markošová},
+           familyi={M\bibinitperiod},
+           given={Mária},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee18a1df20bf22c5a3ad76ce4729c288}{%
+           family={Rudolf},
+           familyi={R\bibinitperiod},
+           given={Boris},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=c4c6651d9aae925bdd85edc17fc7668a}{%
+           family={Perc},
+           familyi={P\bibinitperiod},
+           given={Matjaz},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2f904d00cec05dc5874df269d4fca31}
+      \strng{fullhash}{75f0b0612ceb4a0ed268003f3dbeaafb}
+      \strng{fullhashraw}{75f0b0612ceb4a0ed268003f3dbeaafb}
+      \strng{bibnamehash}{c2f904d00cec05dc5874df269d4fca31}
+      \strng{authorbibnamehash}{c2f904d00cec05dc5874df269d4fca31}
+      \strng{authornamehash}{c2f904d00cec05dc5874df269d4fca31}
+      \strng{authorfullhash}{75f0b0612ceb4a0ed268003f3dbeaafb}
+      \strng{authorfullhashraw}{75f0b0612ceb4a0ed268003f3dbeaafb}
+      \strng{editorbibnamehash}{c4c6651d9aae925bdd85edc17fc7668a}
+      \strng{editornamehash}{c4c6651d9aae925bdd85edc17fc7668a}
+      \strng{editorfullhash}{c4c6651d9aae925bdd85edc17fc7668a}
+      \strng{editorfullhashraw}{c4c6651d9aae925bdd85edc17fc7668a}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract In this article, we present several analytical methods for both correlated and uncorrelated scale-free networks to obtain the clique number upper bound estimate. To test these estimates, we developed several tools to construct networks with scale-free degree distribution. To compute an exact clique number of network in short time, we also developed a clique finder algorithm. As the empirical results show, the various estimate methods gives good upper bounding for the clique numbers. Our clique finder proves to be able to solve clique number problem of arbitrary graphs in a good computation time. To show this, we applied our clique finder on benchmark graphs from various known databases.}
+      \field{day}{1}
+      \field{issn}{2051-1310, 2051-1329}
+      \field{journaltitle}{Journal of Complex Networks}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{About Clique Number Estimates and Exact Enumeration in Scale-Free Networks}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{cnaa011}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/comnet/cnaa011
+      \endverb
+    \endentry
+    \entry{CliqueGraphTheory2025}{inreference}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In graph theory, a clique ( or ) is a subset of vertices of an undirected graph such that every two distinct vertices in the clique are adjacent. That is, a clique of a graph G \{\textbackslash displaystyle G\} is an induced subgraph of G \{\textbackslash displaystyle G\} that is complete. Cliques are one of the basic concepts of graph theory and are used in many other mathematical problems and constructions on graphs. Cliques have also been studied in computer science: the task of finding whether there is a clique of a given size in a graph (the clique problem) is NP-complete, but despite this hardness result, many algorithms for finding cliques have been studied. Although the study of complete subgraphs goes back at least to the graph-theoretic reformulation of Ramsey theory by Erdős \& Szekeres (1935), the term clique comes from Luce \& Perry (1949), who used complete subgraphs in social networks to model cliques of people; that is, groups of people all of whom know each other. Cliques have many other applications in the sciences and particularly in bioinformatics.}
+      \field{annotation}{Page Version ID: 1297153007}
+      \field{booktitle}{Wikipedia}
+      \field{day}{24}
+      \field{hour}{12}
+      \field{langid}{english}
+      \field{minute}{35}
+      \field{month}{6}
+      \field{second}{32}
+      \field{timezone}{Z}
+      \field{title}{Clique (Graph Theory)}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/johannes/Zotero/storage/736SVEQG/index.html
+      \endverb
+      \verb{urlraw}
+      \verb en.wikipedia.org/w/index.php?title=Clique_(graph_theory)&oldid=1297153007
+      \endverb
+      \verb{url}
+      \verb en.wikipedia.org/w/index.php?title=Clique_(graph_theory)&oldid=1297153007
+      \endverb
+    \endentry
+    \entry{MathematicalObject2026}{inreference}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A mathematical object is an abstract concept arising in mathematics. Typically, a mathematical object can be a value that can be assigned to a symbol, and therefore can be involved in formulas. Commonly encountered mathematical objects include numbers, expressions, shapes, functions, and sets. Mathematical objects can be very complex; for example, theorems, proofs, and even formal theories are considered as mathematical objects in proof theory. In philosophy of mathematics, the concept of "mathematical objects" touches on topics of existence, identity, and the nature of reality. In metaphysics, objects are often considered entities that possess properties and can stand in various relations to one another. Philosophers debate whether mathematical objects have an independent existence outside of human thought (realism), or if their existence is dependent on mental constructs or language (idealism and nominalism). Objects can range from the concrete: such as physical objects usually studied in applied mathematics, to the abstract, studied in pure mathematics. What constitutes an "object" is foundational to many areas of philosophy, from ontology (the study of being) to epistemology (the study of knowledge). In mathematics, objects are often seen as entities that exist independently of the physical world, raising questions about their ontological status. There are varying schools of thought which offer different perspectives on the matter, and many famous mathematicians and philosophers each have differing opinions on which is more correct.}
+      \field{annotation}{Page Version ID: 1355377242}
+      \field{booktitle}{Wikipedia}
+      \field{day}{21}
+      \field{hour}{13}
+      \field{langid}{english}
+      \field{minute}{56}
+      \field{month}{5}
+      \field{second}{1}
+      \field{timezone}{Z}
+      \field{title}{Mathematical Object}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/johannes/Zotero/storage/K3CZNGR5/index.html
+      \endverb
+      \verb{urlraw}
+      \verb en.wikipedia.org/w/index.php?title=Mathematical_object&oldid=1355377242
+      \endverb
+      \verb{url}
+      \verb en.wikipedia.org/w/index.php?title=Mathematical_object&oldid=1355377242
+      \endverb
+    \endentry
     \entry{ScalefreeNetwork2026}{inreference}{}{}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A scale-free network is a network whose degree distribution follows a power law, at least asymptotically. That is, the fraction P(k) of nodes in the network having k connections to other nodes goes for large values of k as P ( k ) ∼ k − γ \{\textbackslash displaystyle P(k)\textbackslash{} \textbackslash sim \textbackslash{} k\textasciicircum\{\textbackslash boldsymbol \{-\textbackslash gamma \}\}\} where γ \{\textbackslash displaystyle \textbackslash gamma \} is a parameter whose value is typically in the range 2 {$<$} γ {$<$} 3 \{\textbackslash textstyle 2{$<\backslash$}gamma {$<$}3\} (wherein the second moment (scale parameter) of k − γ \{\textbackslash displaystyle k\textasciicircum\{\textbackslash boldsymbol \{-\textbackslash gamma \}\}\} is infinite but the first moment is finite), although occasionally it may lie outside these bounds. The name "scale-free" could be explained by the fact that some moments of the degree distribution are not defined, so that the network does not have a characteristic scale or "size". Preferential attachment and the fitness model have been proposed as mechanisms to explain the power law degree distributions in real networks. Alternative models such as super-linear preferential attachment and second-neighbour preferential attachment may appear to generate transient scale-free networks, but the degree distribution deviates from a power law as networks become very large.}
       \field{annotation}{Page Version ID: 1347050999}
@@ -44,15 +417,13 @@
       \verb /Users/johannes/Zotero/storage/CCRED7MF/index.html
       \endverb
       \verb{urlraw}
-      \verb https://en.wikipedia.org/w/index.php?title=Scale-free_network&oldid=1347050999
+      \verb en.wikipedia.org/w/index.php?title=Scale-free_network&oldid=1347050999
       \endverb
       \verb{url}
-      \verb https://en.wikipedia.org/w/index.php?title=Scale-free_network&oldid=1347050999
+      \verb en.wikipedia.org/w/index.php?title=Scale-free_network&oldid=1347050999
       \endverb
     \endentry
   \enddatalist
-  \missing{CombinationsPermutations}
-  \missing{chungAverageDistancesRandom2002}
 \endrefsection
 \endinput
 
