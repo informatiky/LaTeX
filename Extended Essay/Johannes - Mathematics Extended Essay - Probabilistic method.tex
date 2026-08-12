@@ -242,7 +242,7 @@ On the other hand, a canonical model works with the probability distributions of
 
 In short, the model defines the probability of an edge between two nodes \( v_i \) and \( v_j \) to be:
 
-\begin{equation}\label{eq:chung-lu-conf-model}
+\begin{equation} \label{eq:chung-lu-conf-model}
     p_{hj} = \frac{w_i w_j}{\sum_{i}{w_i}}
 \end{equation}
 where \( p_{hj} \) is the probability, \( w_h \) and \( w_j\) are weights associated with every node. To better understand this concept, imagine 
@@ -257,7 +257,7 @@ To apply this graph to scale free networks, we have to remember the relation fro
 
 We do this, by generating an expected degree sequence with the following formula, originally created by Chung  Lu and simplified : 
 
-\begin{equation}\label{eq:weight-generation-equation}
+\begin{equation} \label{eq:weight-generation-equation}
     w_i = w_{min} (\frac{n}{i})^{ \frac{1}{\gamma-1}}
 \end{equation}
 
