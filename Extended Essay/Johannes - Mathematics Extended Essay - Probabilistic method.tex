@@ -429,7 +429,7 @@ With both the concepts of scale free networks and the probabilistic method expla
 % -	By analysing the sizes of clique’s present, I should be able to find similar results to my theoretical/probabilistic approach
 % - Create another example similar to the walkthrough
 
-To generate the random scale free networks required to empirically explore these graphs, I instructed Claude Sonnet 5 to generate a python script which sweeps through gamma values 2.0 to 3.5  generating 31000 graphs with 10000 nodes. Below is a simple version of that generation done on paper to help the reader understand what the Large Language Model performed.
+To generate the random scale free networks required to empirically explore these graphs, I instructed Claude Sonnet 5 to generate a python script which sweeps through gamma values 2.0 to 3.5 taking steps of 0.05. The script generated a total 31000 graphs with 10000 nodes each, generating 1000 different graphs . Below is a simple version of that generation done on paper to help the reader understand what the Large Language Model performed.
 
 The theoretical derivation from section \ref{sec:predicting-clique-sizes} shows the positive relation between the degree power coefficient \( \gamma \) and the maximum clique size of a scale free network. To confirm this, I made use of Claude Sonnet 4.6 a large language model to help me create a python script which generates a statistically meaningful number of with different parameters to plot a bivariate relationship on a coordinate plane. The parameters I used were as follows:
 
