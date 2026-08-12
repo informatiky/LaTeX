@@ -433,7 +433,7 @@ The theoretical derivation from section \ref{sec:predicting-clique-sizes} shows 
 
 To generate the random scale free networks required to empirically explore these graphs, I instructed Claude Sonnet 5 to generate a python script which sweeps through gamma values 2.0 to 3.5 taking steps of 0.05. The script generated a total 31000 graphs with 10000 nodes each, generating 1000 different graphs per gamma value. I then plotted the bivariate relationship between gamma and maximal clique size on a coordinate plane. For the reader to understand the generation process the following part will build a much smaller scale free network on paper. 
 
-Let's generate a graph of \( n=5 \) nodes, with gamma \( \gamma = 2.3 \), and a minimum weight \(w_{min} = 2.0 \). Next we need to generate the relevant weights. From the \textit{cite the paper here} we know to use equation \ref{eq:weight-generation-equation} 
+Let's generate a graph of \( n=5 \) nodes, with gamma \( \gamma = 2.3 \), and a minimum weight \(w_{min} = 2.0 \). Next we need to generate the relevant weights. From the \textit{cite the paper here} we know to use equation \ref{eq:weight-generation-equation} from section \ref{}
 
 \[
     w_i = w_{min} (\frac{n}{i})^{ \frac{1}{\gamma-1}}
