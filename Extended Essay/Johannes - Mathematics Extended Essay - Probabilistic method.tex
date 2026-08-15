@@ -466,8 +466,25 @@ And build a table calculating every step:
 \caption{}
 \end{table}
 
-Next we need to allocate a weight to every node,  for simplicity 
+Next we need to allocate a weight to every node,  for simplicity the rank and node will stay the same, meaning we end up with the following information: 
 
+
+\begin{table}[htbp]
+\centering
+\label{tab:rank-weights}
+\begin{tabular}{c S[table-format=1.3] S[table-format=1.3] S[table-format=1.3]}
+\toprule
+{rank $i$} & {$\frac{n}{i}$} & {$\left(\frac{n}{i}\right)^\alpha$} & {$w_i = 2 \times \left(\frac{n}{i}\right)^\alpha$} \\
+\midrule
+1 & 5.000 & 3.449 & 6.898 \\
+2 & 2.500 & 2.024 & 4.047 \\
+3 & 1.667 & 1.481 & 2.963 \\
+4 & 1.250 & 1.187 & 2.375 \\
+5 & 1.000 & 1.000 & 2.000 \\
+\bottomrule
+\end{tabular}
+\caption{}
+\end{table}
 
 
 
