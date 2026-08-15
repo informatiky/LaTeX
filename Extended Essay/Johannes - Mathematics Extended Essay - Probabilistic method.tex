@@ -520,7 +520,7 @@ As a reminder, we are not multiplying the weights by themselves because we are n
 
 We can then divide by the sum of all weights \( \sum_{i}{w_i}=18.282 \):
 
-\begin{table}[H]
+\begin{table}[htbp]
   \centering
   \caption{Pairwise products of normalized weights}
   \label{tab:calculated-probabilities-step-2}
@@ -528,15 +528,14 @@ We can then divide by the sum of all weights \( \sum_{i}{w_i}=18.282 \):
     \toprule
     {} & {$\frac{w_1}{\sum_i w_i} = \frac{6.898}{18.282}$} & {$\frac{w_2}{\sum_i w_i} = \frac{4.047}{18.282}$} & {$\frac{w_3}{\sum_i w_i} = \frac{2.963}{18.282}$} & {$\frac{w_4}{\sum_i w_i} = \frac{2.375}{18.282}$} & {$\frac{w_5}{\sum_i w_i} = \frac{2.000}{18.282}$} \\
     \midrule
-    $\frac{w_1}{\sum_i w_i} = \frac{6.898}{18.282}$ & {} & 1.527 & 1.118 & 0.896 & 0.755 \\
-    $\frac{w_2}{\sum_i w_i} = \frac{4.047}{18.282}$ & 1.527 & {} & 0.656 & 0.526 & 0.443 \\
-    $\frac{w_3}{\sum_i w_i} = \frac{2.963}{18.282}$ & 1.118 & 0.656 & {} & 0.385 & 0.324 \\
-    $\frac{w_4}{\sum_i w_i} = \frac{2.375}{18.282}$ & 0.896 & 0.526 & 0.385 & {} & 0.260 \\
-    $\frac{w_5}{\sum_i w_i} = \frac{2.000}{18.282}$ & 0.755 & 0.443 & 0.324 & 0.260 & {} \\
+    $w_1 = 6.898$ & {} & 1.527 & 1.118 & 0.896 & 0.755 \\
+    $w_2 = 4.047$ & 1.527 & {} & 0.656 & 0.526 & 0.443 \\
+    $w_3 = 2.963$ & 1.118 & 0.656 & {} & 0.385 & 0.324 \\
+    $w_4 = 2.375$ & 0.896 & 0.526 & 0.385 & {} & 0.260 \\
+    $w_5 = 2.000$ & 0.755 & 0.443 & 0.324 & 0.260 & {} \\
     \bottomrule
   \end{tabular}
 \end{table}
-
 
 
 
