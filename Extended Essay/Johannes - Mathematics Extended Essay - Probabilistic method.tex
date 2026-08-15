@@ -430,7 +430,7 @@ With both the concepts of scale free networks and the probabilistic method expla
 % -	By analysing the sizes of clique’s present, I should be able to find similar results to my theoretical/probabilistic approach
 % - Create another example similar to the walkthrough
 
-The theoretical derivation from section \ref{sec:predicting-clique-sizes} shows the inversely proportional relationship between the degree power coefficient \( \gamma \) and the maximum clique size of a scale free network. 
+The theoretical derivation from section \ref{sec:predicting-clique-sizes} shows the inversely proportional relationship between the degree power coefficient \( \gamma \) and the maximum clique size of a scale free network.
 
 To generate the random scale free networks required to empirically explore these graphs, I instructed Claude Sonnet 5 to generate a python script which sweeps through gamma values 2.0 to 3.5 taking steps of 0.05. The script generated a total 31000 graphs with 10000 nodes each, generating 1000 different graphs per gamma value. I then plotted the bivariate relationship between gamma and maximal clique size on a coordinate plane. For the reader to understand the generation process the following part will build a much smaller scale free network on paper. 
 
@@ -449,22 +449,22 @@ And build a table calculating every step:
 
 
 
-% \begin{table}[htbp]
-% \centering
-% \caption{Weight calculation by rank}
-% \label{tab:rank-weights}
-% \begin{tabular}{c S[table-format=1.3] S[table-format=1.3] S[table-format=1.3]}
-% \toprule
-% {rank $i$} & {$\frac{n}{i}$} & {$\left(\frac{n}{i}\right)^\alpha$} & {$w_i = 2 \times \left(\frac{n}{i}\right)^\alpha$} \\
-% \midrule
-% 1 & 5.000 & 3.449 & 6.898 \\ı
-% 2 & 2.500 & 2.024 & 4.047 \\
-% 3 & 1.667 & 1.481 & 2.963 \\
-% 4 & 1.250 & 1.187 & 2.375 \\
-% 5 & 1.000 & 1.000 & 2.000 \\
-% \bottomrule
-% \end{tabular}
-% \end{table}
+\begin{table}[htbp]
+\centering
+\caption{Weight calculation by rank}
+\label{tab:rank-weights}
+\begin{tabular}{c S[table-format=1.3] S[table-format=1.3] S[table-format=1.3]}
+\toprule
+{rank $i$} & {$\frac{n}{i}$} & {$\left(\frac{n}{i}\right)^\alpha$} & {$w_i = 2 \times \left(\frac{n}{i}\right)^\alpha$} \\
+\midrule
+1 & 5.000 & 3.449 & 6.898 \\ı
+2 & 2.500 & 2.024 & 4.047 \\
+3 & 1.667 & 1.481 & 2.963 \\
+4 & 1.250 & 1.187 & 2.375 \\
+5 & 1.000 & 1.000 & 2.000 \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 
