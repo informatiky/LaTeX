@@ -489,7 +489,7 @@ Next we need to allocate a weight to every node,  for simplicity the rank and no
 With the node weights generated we can calculate the probabilities of generating an edge between two nodes. For that we follow equation \ref{eq:chung-lu-conf-model}:
 
 \[
-    p_{hj} = \frac{w_i w_j}{\sum_{i}{w_i}}
+    p_{hj} = \frac{w_i w_j}{\sum_{h}{w_i}}
 \]
 We can first calculate \( \sum_{i}{w_i} \) by summing up all weights:
 
