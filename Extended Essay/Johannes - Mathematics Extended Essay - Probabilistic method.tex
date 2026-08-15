@@ -165,59 +165,58 @@ To generate scale free networks, different methods exist. The greater category o
 
 %=== PANEL 1: Vertices with unmatched stubs ===
 %    Hub (highest degree) placed at the centre; remaining vertices
-%    placed on two concentric rings, ordered by descending degree
-%    outward, so that degree decreases with distance from the centre.
+%    placed on two concentric rings (radius increased for spacing),
+%    ordered by descending degree outward.
 \begin{scope}
     \node[vertex] (A) at (0,0)       {1}; % hub, degree 5 -- centre
-    \node[vertex] (B) at (0.80,1.39) {2}; % degree 3 -- inner ring
-    \node[vertex] (C) at (-1.03,1.23){3}; % degree 2 -- inner ring
-    \node[vertex] (D) at (3.15,-0.56){4}; % degree 1 -- outer ring
-    \node[vertex] (E) at (1.60,-2.77){5}; % degree 1 -- outer ring
-    \node[vertex] (F) at (-1.10,-3.01){6}; % degree 1 -- outer ring
-    \node[vertex] (G) at (-3.15,-0.56){7}; % degree 1 -- outer ring
+    \node[vertex] (B) at (1.30,2.25) {2}; % degree 3 -- inner ring
+    \node[vertex] (C) at (-1.65,1.95){3}; % degree 2 -- inner ring
+    \node[vertex] (D) at (4.55,-0.80){4}; % degree 1 -- outer ring
+    \node[vertex] (E) at (2.30,-4.00){5}; % degree 1 -- outer ring
+    \node[vertex] (F) at (-1.60,-4.35){6}; % degree 1 -- outer ring
+    \node[vertex] (G) at (-4.55,-0.80){7}; % degree 1 -- outer ring
 
-    % Stubs for hub 1 (5), labelled s1-s5, each pointing toward its
-    % eventual partner's location
-    \draw[stub] (A) ++(60:5mm)  -- ++(60:8mm)  node[stublabel, above]{$s_1$};
-    \draw[stub] (A) ++(-10:5mm) -- ++(-10:8mm) node[stublabel, right]{$s_2$};
-    \draw[stub] (A) ++(130:5mm) -- ++(130:8mm) node[stublabel, above]{$s_3$};
-    \draw[stub] (A) ++(-60:5mm) -- ++(-60:8mm) node[stublabel, below]{$s_4$};
-    \draw[stub] (A) ++(-110:5mm)-- ++(-110:8mm) node[stublabel, below]{$s_5$};
+    % Stubs for hub 1 (5), spread evenly, longer so labels clear the vertex
+    \draw[stub] (A) ++(60:5mm)  -- ++(60:12mm)  node[stublabel, above]{$s_1$};
+    \draw[stub] (A) ++(-10:5mm) -- ++(-10:12mm) node[stublabel, right]{$s_2$};
+    \draw[stub] (A) ++(130:5mm) -- ++(130:12mm) node[stublabel, above]{$s_3$};
+    \draw[stub] (A) ++(-70:5mm) -- ++(-70:12mm) node[stublabel, below]{$s_4$};
+    \draw[stub] (A) ++(-130:5mm)-- ++(-130:12mm) node[stublabel, below]{$s_5$};
 
-    % Stubs for 2 (3), labelled s6-s8
-    \draw[stub] (B) ++(250:5mm) -- ++(250:8mm) node[stublabel, below]{$s_6$};
-    \draw[stub] (B) ++(190:5mm) -- ++(190:8mm) node[stublabel, left]{$s_7$};
-    \draw[stub] (B) ++(215:5mm) -- ++(215:8mm) node[stublabel, left]{$s_8$};
+    % Stubs for 2 (3)
+    \draw[stub] (B) ++(260:5mm) -- ++(260:12mm) node[stublabel, below]{$s_6$};
+    \draw[stub] (B) ++(190:5mm) -- ++(190:12mm) node[stublabel, left]{$s_7$};
+    \draw[stub] (B) ++(60:5mm)  -- ++(60:12mm)  node[stublabel, above]{$s_8$};
 
-    % Stubs for 3 (2), labelled s9-s10
-    \draw[stub] (C) ++(310:5mm) -- ++(310:8mm) node[stublabel, below]{$s_9$};
-    \draw[stub] (C) ++(5:5mm)   -- ++(5:8mm)   node[stublabel, right]{$s_{10}$};
+    % Stubs for 3 (2)
+    \draw[stub] (C) ++(310:5mm) -- ++(310:12mm) node[stublabel, below]{$s_9$};
+    \draw[stub] (C) ++(70:5mm)  -- ++(70:12mm)  node[stublabel, above]{$s_{10}$};
 
-    % Stub for 4 (1), labelled s11
-    \draw[stub] (D) ++(170:5mm) -- ++(170:8mm) node[stublabel, left]{$s_{11}$};
+    % Stub for 4 (1)
+    \draw[stub] (D) ++(170:5mm) -- ++(170:12mm) node[stublabel, left]{$s_{11}$};
 
-    % Stub for 5 (1), labelled s12
-    \draw[stub] (E) ++(120:5mm) -- ++(120:8mm) node[stublabel, above]{$s_{12}$};
+    % Stub for 5 (1)
+    \draw[stub] (E) ++(120:5mm) -- ++(120:12mm) node[stublabel, above]{$s_{12}$};
 
-    % Stub for 6 (1), labelled s13
-    \draw[stub] (F) ++(70:5mm)  -- ++(70:8mm)  node[stublabel, above]{$s_{13}$};
+    % Stub for 6 (1)
+    \draw[stub] (F) ++(70:5mm)  -- ++(70:12mm)  node[stublabel, above]{$s_{13}$};
 
-    % Stub for 7 (1), labelled s14
-    \draw[stub] (G) ++(25:5mm)  -- ++(25:8mm)  node[stublabel, right]{$s_{14}$};
+    % Stub for 7 (1)
+    \draw[stub] (G) ++(15:5mm)  -- ++(15:12mm)  node[stublabel, right]{$s_{14}$};
 
-    \node[below=8mm of F, xshift=15mm, font=\small\itshape]
+    \node[below=10mm of F, xshift=15mm, font=\small\itshape]
         {(a) Stubs generated from a scale-free degree sequence};
 \end{scope}
 
 %=== PANEL 2: Same vertices, stubs paired into a simple realized graph ===
-\begin{scope}[xshift=8.5cm]
+\begin{scope}[xshift=11.5cm]
     \node[vertex] (A2) at (0,0)       {1};
-    \node[vertex] (B2) at (0.80,1.39) {2};
-    \node[vertex] (C2) at (-1.03,1.23){3};
-    \node[vertex] (D2) at (3.15,-0.56){4};
-    \node[vertex] (E2) at (1.60,-2.77){5};
-    \node[vertex] (F2) at (-1.10,-3.01){6};
-    \node[vertex] (G2) at (-3.15,-0.56){7};
+    \node[vertex] (B2) at (1.30,2.25) {2};
+    \node[vertex] (C2) at (-1.65,1.95){3};
+    \node[vertex] (D2) at (4.55,-0.80){4};
+    \node[vertex] (E2) at (2.30,-4.00){5};
+    \node[vertex] (F2) at (-1.60,-4.35){6};
+    \node[vertex] (G2) at (-4.55,-0.80){7};
 
     % Matching: 1-2, 1-3, 1-4, 1-5, 1-6, 2-3, 2-7
     \draw[edgeline] (A2) -- (B2);
@@ -235,7 +234,7 @@ To generate scale free networks, different methods exist. The greater category o
     \draw[edgeline] (B2) -- (G2);
     \node[edgelabel] at ($(B2)!0.5!(G2)$) {$s_8s_{14}$};
 
-    \node[below=8mm of F2, xshift=15mm, font=\small\itshape]
+    \node[below=10mm of F2, xshift=15mm, font=\small\itshape]
         {(b) Stubs paired into a simple realized graph};
 \end{scope}
 
