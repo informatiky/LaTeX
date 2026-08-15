@@ -501,7 +501,6 @@ And then calculate all weight products:
 
 \begin{table}[htbp]
   \centering
-  \caption{Pairwise products of weights}
   \label{tab:calculated-probabilities-step-1}
   \begin{tabular}{c S[table-format=2.3] S[table-format=2.3] S[table-format=2.3] S[table-format=2.3] S[table-format=2.3]}
     \toprule
@@ -514,9 +513,12 @@ And then calculate all weight products:
     $w_5 = 2.000$ & 13.795 & 8.094 & 5.925 & 4.749 & {} \\
     \bottomrule
   \end{tabular}
+  \caption{Pairwise products of weights}
 \end{table}
 
 As a reminder, we are not multiplying the weights by themselves because we are not interested in loops.
+
+We can then divide by the sum of all weights:
 
 
 
