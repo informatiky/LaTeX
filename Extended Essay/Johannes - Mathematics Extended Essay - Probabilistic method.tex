@@ -454,7 +454,7 @@ In other words, we predict that when we set \( w_{min} = 0.005 \) then the maxim
 
 This number is tightly bound, however, because we have to reflect the bounds on the parameters and the statistical meaning. The authors set a boundary of \( \epsilon \in 0,1 \) and \( \gamma \in 2,3 \) as both of these change random generation drastically if outside the bounds. Furthermore, if the graph is not dense enough, it will become nearly impossible to work with probabilities correctly as there is no meaningful number of edges that could generate a clique and therefore show the same prediction. At \( \gamma = 2.4 \) we can assume the edge density to be meaningful enough, however any greater makes the \( n = 10 000 \) node graph have a density of less than \( 1 \% \). 
 Specifically for this reason the generation of the scale free networks in the next section will make use of a very high \( w_{min} \) value which will lead to high clipping rates as discussed in section \ref{sec:scale-free-networks}. These are, however, necessary because the limited computing power available to me limits the maximum nodes I can generate en masse.
-As a result 
+As a results 
 
 \section{Building Scale Free Networks}
 % -	Using the help of AI to code a python script, I aim to generate a statistically meaningful number of Scale-Free Networks.
