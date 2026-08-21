@@ -246,7 +246,7 @@ In short, the model defines the probability of an edge between two nodes \( v_i 
 \begin{equation} \label{eq:chung-lu-conf-model}
     p_{hj} = \frac{w_h w_j}{\sum_{i}{w_i}}
 \end{equation}
-where \( p_{hj} \) is the probability, \( w_h \) and \( w_j\) are weights associated with every node. These \textit{weights} are generated beforehand and assigned to every node. They are also called a node's expected degree, since the larger the weight the greater the degree and the two are directly proportional. Take 
+where \( p_{hj} \) is the probability, \( w_h \) and \( w_j\) are weights associated with every node. These \textit{weights} are generated beforehand and assigned to every node. They are also called a node's expected degree, since the larger the weight the greater the degree and the two are directly proportional. If we hypothetically double \( w_h \) equation (\ref{eq:chung-lu-conf-model}) 
 \autocite{chungAverageDistancesRandom2002}
 
 Equation (\ref{eq:chung-lu-conf-model}) comes from the bounds set by the definitions of algebraic mathematics and graph theory. Chung \& Lu explicitly define the graph G(\textbf{w}) where \textbf{w} is the expected degree sequence. The expected degree sequence of a graph is the decreasing sequence of its nodes' degrees. In the graph below that would be:
