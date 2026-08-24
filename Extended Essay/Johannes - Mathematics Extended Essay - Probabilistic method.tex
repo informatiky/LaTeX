@@ -233,6 +233,48 @@ Bringing the power law distribution and the weight requirements together, we com
 
 
 
+\section{Combinations and Permutations} \label{sec:combinations-permutations}
+
+To understand the rest of this essay, it is important to clarify the concept of what are colloquially known as \textit{combinations}. Imagine a simple cake in which all ingredients are mixed independent of the order. In mathematical language, that is called a combination of objects. If, on the other hand, the order matters, like for a phone password, that is called a permutation. There is a further distinction between a combination and permutation where repeats are allowed or not. A phone password, for example, can have repeating digits, arranging the winners of a race, on the other hand, cannot. 
+\autocite{CombinationsPermutations}
+
+\subsection{Permutations with Repetitions}
+
+Calculating possible arrangements of objects depends on the requirements. It is simplest to calculate all possible permutations when repetitions are allowed. If we have a 4-digit phone password where every digit can be a digit from 0-9 with repetitions there are: \[ 10 \times 10 \times 10 \times 10 = 10^{4} = 10000 \] possible permutations since every new digit we can choose from another set of 10 numbers. 
+
+Generalising, if we have \(n\) different types in a specific order of \(r\) items with repetitions allowed, we can assume there are: 
+\begin{equation}
+n^{r}
+\end{equation}
+permutations.
+
+\subsection{Permutations without Repetitions}
+
+If, however, we cannot have repeating values, because we are working with all the possible results of a race, we have to decrease the pool of objects to pick from with every step. When repetitions were allowed, we could multiply the same number over and over. This time, however, we need to calculate the possibilities from a decreasing number of choices. Taking 7 runners in a race, there are 7 options to be first, but then only 6 to come second, then 5 and so on. There are therefore \[7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 = \] possibilities. Mathematically, this can be denoted as \(7!\). If want to choose the first three winners only we would multiply \(7 \times 6 \times 5\). Since our notation goes until 1 however, we can cancel out the latter part: 
+
+\[ \frac{7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1}{4 \times 3 \times 2 \times 1} = \frac{7!}{4}\]
+
+Generalising, if we chose \(r\) items from \(n\) different types where repetitions are not allowed we get:
+\begin{equation}
+\frac{n!}{(n-r)!}
+\end{equation} 
+
+\subsection{Combinations without Repetitions}
+
+If we apply this idea to combinations where there are no repetition, in other words we do not care about the order but cannot have duplicates, we need to remove all duplicates. Taking our race example, if we only care about the all the possible lists we can generate, independent of their order, we have to remove all the ways in which 3 objects (the value from before) can be arranged. As a reminder, that is \(3!\). Now applying that to the formula:
+
+\[ \frac{\text{number of possible combinations}}{\text{cancelling out} \times \text{eliminating duplicates} } = \frac{7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1}{ (4 \times 3 \times 2 \times 1) \times (3 \times 2 \times 1)} = \frac{7!}{4! \times 3!} \] 
+Conventional notation switches the latter around meaning we generalise to:
+\[ \frac{n!}{r!(n-r)!} \]
+This formula is so common that it is shortened to:
+
+\begin{equation}
+    \frac{n!}{r!(n-r)!} = \binom{n}{r}
+\end{equation}
+
+The notation means "\(n\) chooses \(r\)" and we are taking r items from a pool of n different types where the order does not matter, but there cannot be repeats. This formula is called the binomial coefficient and will be used frequently throughout this essay.
+
+
 
 
 
