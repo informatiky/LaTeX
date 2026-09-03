@@ -234,10 +234,10 @@ Bringing the power law distribution and the weight requirements together, we com
 Where \( c \) is the maximum weight, \( i \) is the rank, and gamma the power law exponent. Choosing the maximum weight is best done by calculating the maximum value permitted by the equality \( k_i^2 < \sum_{i}{k_i}\), after all, a normalised weight should not exceed a probability of \( 1 \). To find c we need to take apart the equation summing all weights:
 
 \begin{equation}
-S = \sum_{i}{w_i} = \sum_{i}{c \times i^{ \frac{1}{\gamma-1}}} = c \times \sum_{i}{i^{ \frac{1}{\gamma-1}}}
+S = \sum_{i}{w_i} = \sum_{i}{c \times i^{ \frac{1}{\gamma-1}}} = c \times \sum_{i}{i^{ \frac{1}{\gamma-1}}} = cT
 \end{equation}
 
-where \( S \) is chosen to keep the notation clean below. With this information, we can now apply the inequality:
+where \( S \) and \( T \) are chosen to keep the notation clean below. With this information, we can now apply the inequality:
 
 \begin{equation}
 w_i^2 < \sum_{i}{w_i} = w_{max}^2 < \sum_{i}{w_i} 
