@@ -331,52 +331,6 @@
       \verb en.wikipedia.org/w/index.php?title=Clique_(graph_theory)&oldid=1297153007
       \endverb
     \endentry
-    \entry{MathematicalObject2026}{inreference}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b6aea1a416c89509a7df1cbb69249cb6}{%
-           family={{Wikipedia contributors}},
-           familyi={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{fullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorfullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
-      \field{extraname}{2}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A mathematical object is an abstract concept arising in mathematics. Typically, a mathematical object can be a value that can be assigned to a symbol, and therefore can be involved in formulas. Commonly encountered mathematical objects include numbers, expressions, shapes, functions, and sets. Mathematical objects can be very complex; for example, theorems, proofs, and even formal theories are considered as mathematical objects in proof theory. In philosophy of mathematics, the concept of "mathematical objects" touches on topics of existence, identity, and the nature of reality. In metaphysics, objects are often considered entities that possess properties and can stand in various relations to one another. Philosophers debate whether mathematical objects have an independent existence outside of human thought (realism), or if their existence is dependent on mental constructs or language (idealism and nominalism). Objects can range from the concrete: such as physical objects usually studied in applied mathematics, to the abstract, studied in pure mathematics. What constitutes an "object" is foundational to many areas of philosophy, from ontology (the study of being) to epistemology (the study of knowledge). In mathematics, objects are often seen as entities that exist independently of the physical world, raising questions about their ontological status. There are varying schools of thought which offer different perspectives on the matter, and many famous mathematicians and philosophers each have differing opinions on which is more correct.}
-      \field{annotation}{Page Version ID: 1355377242}
-      \field{booktitle}{Wikipedia}
-      \field{day}{21}
-      \field{hour}{13}
-      \field{langid}{english}
-      \field{minute}{56}
-      \field{month}{5}
-      \field{second}{1}
-      \field{timezone}{Z}
-      \field{title}{Mathematical Object}
-      \field{urlday}{31}
-      \field{urlmonth}{5}
-      \field{urlyear}{2026}
-      \field{year}{2026}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /Users/johannes/Zotero/storage/K3CZNGR5/index.html
-      \endverb
-      \verb{urlraw}
-      \verb en.wikipedia.org/w/index.php?title=Mathematical_object&oldid=1355377242
-      \endverb
-      \verb{url}
-      \verb en.wikipedia.org/w/index.php?title=Mathematical_object&oldid=1355377242
-      \endverb
-    \endentry
     \entry{ScalefreeNetwork2026}{inreference}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b6aea1a416c89509a7df1cbb69249cb6}{%
@@ -391,7 +345,7 @@
       \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
       \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
       \strng{authorfullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
@@ -424,6 +378,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{bianconiNumberCliquesRandom2006}
 \endrefsection
 \endinput
 
