@@ -514,7 +514,7 @@ To generate the random scale free networks required to empirically explore these
 Let's generate a graph of \( n=5 \) nodes with gamma coefficient \( \gamma = 2.3 \). First we need to generate the relevant weights attributed to every node. From the \textit{cite the paper here} we know to use equation \ref{eq:weight-generation-equation} from section \ref{sec:scale-free-networks}
 
 \[
-    w_i = w_{min} (\frac{n}{i})^{ \frac{1}{\gamma-1}}
+    w_i = c \times i^{ \frac{1}{\gamma-1}}
 \]
 
 To simplify the step, we can make the exponent a constant:
