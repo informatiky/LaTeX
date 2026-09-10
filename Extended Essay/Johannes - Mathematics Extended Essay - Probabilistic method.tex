@@ -650,27 +650,7 @@ We can then divide by the sum of all weights \( \sum_{i}{w_i}=7.025 \):
   \caption{Pairwise products of normalized weights}
 \end{table}
 
-We now have the theoretical probability of an edge between every node in our graph. The reader will notice, however, how some probabilities are above 1, which is not possible. These probabilities therefore need to be clipped which will in turn mean that there is a guaranteed edge between these two nodes. Clipping every probability above 1 results in the following table:
-
-
-\begin{table}[H]
-  \centering
-  
-  \label{tab:calculated-probabilities-step-3}
-  \begin{tabular}{c S[table-format=1.3] S[table-format=1.3] S[table-format=1.3] S[table-format=1.3] S[table-format=1.3]}
-    \toprule
-    {} & {$\frac{w_1}{\sum_i w_i} = \frac{6.898}{18.282}$} & {$\frac{w_2}{\sum_i w_i} = \frac{4.047}{18.282}$} & {$\frac{w_3}{\sum_i w_i} = \frac{2.963}{18.282}$} & {$\frac{w_4}{\sum_i w_i} = \frac{2.375}{18.282}$} & {$\frac{w_5}{\sum_i w_i} = \frac{2.000}{18.282}$} \\
-    \midrule
-    $w_1 = 6.898$ & {} & 1.000 & 1.000 & 0.896 & 0.755 \\
-    $w_2 = 4.047$ & 1.000 & {} & 0.656 & 0.526 & 0.443 \\
-    $w_3 = 2.963$ & 1.000 & 0.656 & {} & 0.385 & 0.324 \\
-    $w_4 = 2.375$ & 0.896 & 0.526 & 0.385 & {} & 0.260 \\
-    $w_5 = 2.000$ & 0.755 & 0.443 & 0.324 & 0.260 & {} \\
-    \bottomrule
-  \end{tabular}
-  \caption{Clipped probabilities of edges between nodes}
-\end{table}
-
+We now have the theoretical probability of an edge between every node in our graph.
 Finally, we can generate the actual edges. In the script, a random value is generated between 0 and 1 and if it is less than the value, and edge is placed. For the purpose of this demonstration Excel generated the values. As a reminder, node \(v_i \) has weight \(w_i\).
 
 \begin{table}[H]
