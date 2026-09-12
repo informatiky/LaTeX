@@ -563,11 +563,24 @@ w_{max} = \sum_{i=1}^{n}{i^{ -\frac{1}{\gamma-1}}} = \sum_{i=1}^{100}{i^{ -\frac
 And then calculate \( b \), assuming \( w_{max}^2 = S \):
 
 \[
- b = (\gamma - 1)  \frac{w_{max}^{\gamma - 1}}{n} \, e \left (\frac{S}{n} \right ) ^{\frac{1-\gamma}{2}} = (2.4 - 1)  \frac{10.121^{2.4 - 1}}{100} \, e \left (\frac{10.121^2}{100} \right ) ^{\frac{1-2.4}{2}} = 0.9559221339
+ b = (\gamma - 1)  \frac{w_{max}^{\gamma - 1}}{n} \, e \left (\frac{S}{n} \right ) ^{\frac{1-\gamma}{2}} = (2.4 - 1)  \frac{10.121^{2.4 - 1}}{100} \, e \left (\frac{10.121^2}{100} \right ) ^{\frac{1-2.4}{2}} = 0.9559509674
 \]
 
 We can then update the table:
 
+\begin{table}[H]
+\centering
+\label{tab:node-weights}
+\begin{tabular}{c c}
+\toprule
+{Variable} & {Value}  \\
+\midrule
+\( \gamma \) & 2.4 \\
+\( n \) & 100 \\
+\bottomrule
+\end{tabular}
+\caption{}
+\end{table}
 
 
 Inserting the variables:
