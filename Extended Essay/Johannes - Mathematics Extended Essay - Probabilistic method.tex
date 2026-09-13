@@ -71,13 +71,13 @@ My AI HL maths course focuses little on a mathematical branch called discrete ma
 
 This extended essay is a summary of these findings and an attempt at combining two inherently close concepts that I could find little definitive information on in my research: how clique sizes relate to the power-law distribution of scale free networks. In other words, I will answer the question: How does the power coefficient \( \gamma \) affect maximum clique sizes in scale free networks at the edge of admissibility?
 
-Clique sizes are parts of graphs (from graph theory, not Cartesian planes) where all nodes are interconnected with one another. Scale free networks are graphs where the number of connections all nodes have follows the shape of a power function: \(f(x)=x^{-\gamma}\). In other words, there are many nodes with few connections and a few with many. The shape of the function means a scale free network has few \textit{hubs} which are much more connected than the majority of other nodes, such as the one below with the two dark blue nodes:
+Clique sizes are parts of graphs (from graph theory, not Cartesian planes) where all nodes are interconnected with one another. Scale free networks are graphs where the number of connections all nodes have follows the shape of a power function: \(f(x)=x^{-\gamma}\). In other words, there are many nodes with few connections and a few with many. The shape of the function means a scale free network has few \textit{hubs} which are much more connected than the majority of other nodes, such as the one in Figure \ref{fig:example-scale-free} with the two dark blue nodes:
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.48\textwidth]{exampleScaleFree.png}
-\caption{Caption text here}
-\label{fig:my-image}
+\caption{An example scale free network. The two dark blue nodes are hubs: they hold far more connections than the majority of the other nodes.}
+\label{fig:example-scale-free}
 \end{figure}
 
 Scale free networks are remarkable graphs because they can be found and are made use of in every corner of our lives. They are defined by their nodes' degree, which I will define later, but even without the mathematical knowledge they are conceptually interesting. The internet and Instagram are scale free networks. Telecommunications networks are scale free. Most modern financial networks have hubs. Any network which makes use of a few hubs that have many more connections than the rest is likely a scale free network. The simple fact that there are many tangible examples to understand the concept make this topic fascinating to explore. \autocite{ScalefreeNetwork2026}
@@ -123,7 +123,7 @@ This extended essay will investigate scale free networks which are representativ
 \end{equation}
 where \( \gamma \) is some exponent and \( P(k) \) the probability that a node has degree \( k \) \autocite{ScalefreeNetwork2026}.
 
-To generate scale free networks, different methods exist. The most commonly used model is called \textit{configuration model} because it allows the degree of every node to be pre-defined \autocite{ConfigurationModel2025}. Since scale free networks are defined by the distribution of a graph's nodes' degree, that is a requirement. When it is of interest to fix the degree sequence exactly it is possible to make use of a microcanonical model which defines the exact degree of every node in the graph and randomly draws edges according to these requirements \autocite{ConfigurationModel2025}. The diagram below shows how every node has a predefined degree and only the exact connections are generated randomly.
+To generate scale free networks, different methods exist. The most commonly used model is called \textit{configuration model} because it allows the degree of every node to be pre-defined \autocite{ConfigurationModel2025}. Since scale free networks are defined by the distribution of a graph's nodes' degree, that is a requirement. When it is of interest to fix the degree sequence exactly it is possible to make use of a microcanonical model which defines the exact degree of every node in the graph and randomly draws edges according to these requirements \autocite{ConfigurationModel2025}. The diagram in Figure \ref{fig:configuration-model-stubs} shows how every node has a predefined degree and only the exact connections are generated randomly.
 \begin{figure}[H]
 \centering
 \begin{tikzpicture}[
@@ -207,6 +207,7 @@ To generate scale free networks, different methods exist. The most commonly used
 \end{scope}
 
 \end{tikzpicture}
+\caption{The microcanonical configuration model. (a) Each node is assigned a fixed number of unmatched edge stubs according to its predefined degree. (b) The stubs are randomly paired to realize the graph's edges.}
 \label{fig:configuration-model-stubs}
 \end{figure}
 
@@ -302,7 +303,7 @@ Start with edge colouring. Imagine there is a neighbourhood party which you have
 
 Another application of edge colouring are Ramsey numbers \( R(k,l) \). They are defined by the smallest number of nodes, \(n\), in a complete graph (all nodes connect to each other) \( K_n \) coloured red and green required to guarantee a monochromatic red clique of node-size \( K_k \) or monochromatic green clique node size \( K_l \). Taking this apart, we are asking how many interconnected nodes we need to randomly generate, where every edge is coloured either red or green with any probability, to find a pattern in seeming chaos. In our case this pattern is a complete subgraph, i.e. clique, which has a single colour either red or green connecting \( k \) or \( l \) nodes respectively. The reader should note that the colours are arbitrarily chosen. \autocite{chahamisRamseyNumbers2018}
 
-The most common example is \( R(3,3) = 6 \) \autocite{chahamisRamseyNumbers2018}. Below is a randomly generated graph with 6 nodes and random colouring, with the green triangle (clique of size 3 makes a triangle) clearly visible between 1, 3 and 5.
+The most common example is \( R(3,3) = 6 \) \autocite{chahamisRamseyNumbers2018}. Figure \ref{fig:ramsey33} shows a randomly generated graph with 6 nodes and random colouring, with the green triangle (clique of size 3 makes a triangle) clearly visible between 1, 3 and 5.
 
 \begin{figure}[H]
 \centering
@@ -347,7 +348,7 @@ The most common example is \( R(3,3) = 6 \) \autocite{chahamisRamseyNumbers2018}
 \label{fig:ramsey33}
 \end{figure}
 
-On the other hand, below is a graph with 5 nodes where there are no monochromatic cliques, showing that \( R(3,3) > 5 \):
+On the other hand, Figure \ref{fig:ramsey33-k5} shows a graph with 5 nodes where there are no monochromatic cliques, showing that \( R(3,3) > 5 \):
 
 \begin{figure}[H]
 \centering
@@ -732,7 +733,7 @@ We can now generate the actual edges. In the script, a random value is generated
   \caption{Edge realization for each node pair}
 \end{table}
 
-If we were to draw it, this would be the result:
+If we were to draw it, Figure \ref{fig:chung-lu-realization-3} would be the result:
 
 \begin{figure}[H]
 \centering
@@ -775,64 +776,64 @@ If we were to draw it, this would be the result:
 
 The generation of a statistically meaningful number of graphs means we can empirically make conclusions about relationships between \( \gamma \) and the maximal clique size \( c \). As a reminder, I generated a total of \(\num{10500000}\) graphs with values for \( n =100\) through \( n =1000\) nodes in steps of \(\num{100} \), generating \(\num{50000}\) different graphs per \( \gamma \) value.
 
-It seems like \( c \) follows a quadratic relationship to \( \gamma \). This relationship holds at an \( R^2 = 0.9675 \text{ to } 0.9995 \), depending on the number of nodes, \(n\) greater than any other common relationship. Figure below shows the value for \(n=100\).
+It seems like \( c \) follows a quadratic relationship to \( \gamma \). This relationship holds at an \( R^2 = 0.9675 \text{ to } 0.9995 \), depending on the number of nodes, \(n\) greater than any other common relationship. Figure \ref{fig:gamma-clique-comparison} shows the fitted quadratic relationship between \(\gamma\) and clique size for \(n=100\) and \(n=1000\).
 
 \begin{figure}[H]
 \centering
 \begin{subfigure}[b]{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{n100GammaClique.png}
-    \caption{First image caption}
-    \label{fig:sub1}
+    \caption{\(n=100\)}
+    \label{fig:gamma-clique-n100}
 \end{subfigure}
 \hfill
 \begin{subfigure}[b]{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{n1000GammaClique.png}
-    \caption{Second image caption}
-    \label{fig:sub2}
+    \caption{\(n=1000\)}
+    \label{fig:gamma-clique-n1000}
 \end{subfigure}
-\caption{Overall caption describing both}
-\label{fig:both}
+\caption{Maximal clique size against \(\gamma\), with a fitted quadratic curve, for \(n=100\) (left) and \(n=1000\) (right).}
+\label{fig:gamma-clique-comparison}
 \end{figure}
 
-More notably, this relationship shifts on the coordinate plane as \(n\) changes. Bringing together all generated quadratic equations onto a single coordinate plane gives us the following figure, where the red zone is the scope which this essay has been looking at: 
+More notably, this relationship shifts on the coordinate plane as \(n\) changes. Bringing together all generated quadratic equations onto a single coordinate plane gives us Figure \ref{fig:all-n-gamma-clique}, where the red zone is the scope which this essay has been looking at: 
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.48\textwidth]{allNGammClique.png}
-\caption{Caption text here}
-\label{fig:my-image}
+\caption{All fitted quadratic curves relating \(\gamma\) to maximal clique size, across the generated range of \(n\). The red zone marks the region examined in this essay.}
+\label{fig:all-n-gamma-clique}
 \end{figure}
 
-Zooming in to better distinguish the individual curves, we notice how all of them seem to join on a point at the \( x =2 \) line:
+Zooming in to better distinguish the individual curves, we notice in Figure \ref{fig:all-n-gamma-clique-zoom} how all of them seem to join on a point at the \( x =2 \) line:
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.48\textwidth]{allNZoomGammaClique.png}
-\caption{Caption text here}
-\label{fig:my-image}
+\caption{Zoomed-in view of the fitted curves from Figure \ref{fig:all-n-gamma-clique}, showing them converging near a common point at \(\gamma = 2\).}
+\label{fig:all-n-gamma-clique-zoom}
 \end{figure}
 
-Although not doing so perfectly, this point is also the vertex of a quadratic equation shaped from the vertex points of all the other curves as seen below:
+Although not doing so perfectly, this point is also the vertex of a quadratic equation shaped from the vertex points of all the other curves as seen in Figure \ref{fig:vertex-analysis}:
 
 \begin{figure}[H]
 \centering
 \begin{subfigure}[b]{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{allNGammaCliqueVertex.png}
-    \caption{First image caption}
-    \label{fig:sub1}
+    \caption{Vertex points}
+    \label{fig:vertex-points}
 \end{subfigure}
 \hfill
 \begin{subfigure}[b]{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{allNGammaCliqueParabola.png}
-    \caption{Second image caption}
-    \label{fig:sub2}
+    \caption{Fitted parabola}
+    \label{fig:vertex-parabola}
 \end{subfigure}
-\caption{Overall caption describing both}
-\label{fig:both}
+\caption{The vertex point of each fitted \(\gamma\)-clique-size curve, plotted across \(n\) (left), and a quadratic curve fitted to those vertex points (right).}
+\label{fig:vertex-analysis}
 \end{figure}
 
 To keep generations comparable, the maximum weight \(w_{\text{max}}\) was kept constant across all values of \(\gamma\). The maximum weight \(w_{\text{max}}\) was, however, not kept constant across values of \(n\). Following from equation \ref{eq:wmax-leq-T} in section \ref{sec:scale-free-networks}, the greater the \(n\) value, the greater the maximum weight. By changing \(w_{\text{max}}\) we could make sure these graphs were always generated at the edge of admissibility. Although the \(R^2\) value is not necessary meaningful to associate a certain series of points with a quadratic relationship, the repeated curve shape is very helpful in concluding this relationship. Seeing as we only changed \(\gamma\) it is very likely that this relationship can be based on the power coefficient. It is possible, however, that \(\gamma\) affected another characteristic which in turn changed the clique size, although that would simply mean there is an intermediate step in the relationship. In addition, only the very large number of generated graphs can make this result useful. Since the \textcite{chungAverageDistancesRandom2002} model uses a purely probabilistic model, that makes it a requirement.
