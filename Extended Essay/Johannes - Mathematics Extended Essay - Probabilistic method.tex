@@ -1,4 +1,3 @@
-
 \documentclass[12pt, a4paper]{article}   % font size, paper size
 
 % Encoding & language
@@ -92,7 +91,7 @@ One predominant branch of Mathematics which is often ignored is called combinato
 
 For clarity, I will define the following terms, as they are different around the mathematical world:
 \begin{description}
-    \item[Node:] A node is the same as a vertex and is the undivisible point at which one or more edges meet.
+    \item[Node:] A node is the same as a vertex and is the indivisible point at which one or more edges meet.
     \item[Edge:] An edge is the connection between nodes.
     \item[Degree:] The degree of a node is the number of connections, i.e. edges, it has to another node. In general, this essay will denote it as \( k \) to simplify understanding.
     \item[Complete Graph]  A graph in which every pair of distinct nodes is connected by an edge. It will be denoted as \( K_n \) where n is the number of nodes in the graph.
@@ -132,32 +131,32 @@ To generate scale free networks, different methods exist. The greater category o
     \node[vertex] (G) at (2.5,-2.75){7}; % degree 1
 
     % Stubs for hub 1 (5), labelled s1-s5
-    \draw[stub] (A) ++(150:5mm) -- ++(150:8mm) node[stublabel, above]{$s_1$};
-    \draw[stub] (A) ++(115:5mm) -- ++(115:8mm) node[stublabel, above]{$s_2$};
-    \draw[stub] (A) ++(-150:5mm)-- ++(-150:8mm) node[stublabel, below]{$s_3$};
-    \draw[stub] (A) ++(-115:5mm)-- ++(-115:8mm) node[stublabel, below]{$s_4$};
-    \draw[stub] (A) ++(0:5mm)   -- ++(0:8mm)   node[stublabel, right]{$s_5$};
+    \draw[stub] (A) ++(150:5mm) -- ++(150:8mm) node[stublabel, above]{\(s_1\)};
+    \draw[stub] (A) ++(115:5mm) -- ++(115:8mm) node[stublabel, above]{\(s_2\)};
+    \draw[stub] (A) ++(-150:5mm)-- ++(-150:8mm) node[stublabel, below]{\(s_3\)};
+    \draw[stub] (A) ++(-115:5mm)-- ++(-115:8mm) node[stublabel, below]{\(s_4\)};
+    \draw[stub] (A) ++(0:5mm)   -- ++(0:8mm)   node[stublabel, right]{\(s_5\)};
 
     % Stubs for 2 (3), labelled s6-s8
-    \draw[stub] (B) ++(160:5mm) -- ++(160:8mm) node[stublabel, above]{$s_6$};
-    \draw[stub] (B) ++(210:5mm) -- ++(210:8mm) node[stublabel, left]{$s_7$};
-    \draw[stub] (B) ++(70:5mm)  -- ++(70:8mm)  node[stublabel, above]{$s_8$};
+    \draw[stub] (B) ++(160:5mm) -- ++(160:8mm) node[stublabel, above]{\(s_6\)};
+    \draw[stub] (B) ++(210:5mm) -- ++(210:8mm) node[stublabel, left]{\(s_7\)};
+    \draw[stub] (B) ++(70:5mm)  -- ++(70:8mm)  node[stublabel, above]{\(s_8\)};
 
     % Stubs for 3 (2), labelled s9-s10
-    \draw[stub] (C) ++(210:5mm) -- ++(210:8mm) node[stublabel, left]{$s_9$};
-    \draw[stub] (C) ++(-70:5mm) -- ++(-70:8mm) node[stublabel, below]{$s_{10}$};
+    \draw[stub] (C) ++(210:5mm) -- ++(210:8mm) node[stublabel, left]{\(s_9\)};
+    \draw[stub] (C) ++(-70:5mm) -- ++(-70:8mm) node[stublabel, below]{\(s_{10}\)};
 
     % Stub for 4 (1), labelled s11
-    \draw[stub] (D) ++(30:5mm)  -- ++(30:8mm)  node[stublabel, right]{$s_{11}$};
+    \draw[stub] (D) ++(30:5mm)  -- ++(30:8mm)  node[stublabel, right]{\(s_{11}\)};
 
     % Stub for 5 (1), labelled s12
-    \draw[stub] (E) ++(-30:5mm) -- ++(-30:8mm) node[stublabel, right]{$s_{12}$};
+    \draw[stub] (E) ++(-30:5mm) -- ++(-30:8mm) node[stublabel, right]{\(s_{12}\)};
 
     % Stub for 6 (1), labelled s13
-    \draw[stub] (F) ++(90:5mm)  -- ++(90:8mm)  node[stublabel, above]{$s_{13}$};
+    \draw[stub] (F) ++(90:5mm)  -- ++(90:8mm)  node[stublabel, above]{\(s_{13}\)};
 
     % Stub for 7 (1), labelled s14
-    \draw[stub] (G) ++(-90:5mm) -- ++(-90:8mm) node[stublabel, below]{$s_{14}$};
+    \draw[stub] (G) ++(-90:5mm) -- ++(-90:8mm) node[stublabel, below]{\(s_{14}\)};
 
     \node[below=32mm of C, xshift=25mm, font=\small\itshape]
         {(a) Stubs generated from a scale-free degree sequence};
@@ -175,31 +174,32 @@ To generate scale free networks, different methods exist. The greater category o
 
     % Matching: 1-2, 1-3, 1-4, 1-5, 1-6, 2-3, 2-7
     \draw[edgeline] (A2) -- (B2);
-    \node[edgelabel] at ($(A2)!0.5!(B2)$) {$s_1s_6$};
+    \node[edgelabel] at ($(A2)!0.5!(B2)$) {\(s_1s_6\)};
     \draw[edgeline] (A2) -- (C2);
-    \node[edgelabel] at ($(A2)!0.5!(C2)$) {$s_3s_9$};
+    \node[edgelabel] at ($(A2)!0.5!(C2)$) {\(s_3s_9\)};
     \draw[edgeline] (A2) -- (D2);
-    \node[edgelabel] at ($(A2)!0.5!(D2)$) {$s_2s_{11}$};
+    \node[edgelabel] at ($(A2)!0.5!(D2)$) {\(s_2s_{11}\)};
     \draw[edgeline] (A2) -- (E2);
-    \node[edgelabel] at ($(A2)!0.5!(E2)$) {$s_4s_{12}$};
+    \node[edgelabel] at ($(A2)!0.5!(E2)$) {\(s_4s_{12}\)};
     \draw[edgeline] (A2) -- (F2);
-    \node[edgelabel] at ($(A2)!0.5!(F2)$) {$s_5s_{13}$};
+    \node[edgelabel] at ($(A2)!0.5!(F2)$) {\(s_5s_{13}\)};
     \draw[edgeline] (B2) -- (C2);
-    \node[edgelabel] at ($(B2)!0.5!(C2)$) {$s_7s_{10}$};
+    \node[edgelabel] at ($(B2)!0.5!(C2)$) {\(s_7s_{10}\)};
     \draw[edgeline] (B2) -- (G2);
-    \node[edgelabel] at ($(B2)!0.5!(G2)$) {$s_8s_{14}$};
+    \node[edgelabel] at ($(B2)!0.5!(G2)$) {\(s_8s_{14}\)};
 
     \node[below=32mm of C2, xshift=25mm, font=\small\itshape]
         {(b) Stubs paired into a simple realized graph};
 \end{scope}
 
 \end{tikzpicture}
+\label{fig:configuration-model-stubs}
 \end{figure}
 
 
 On the other hand, a canonical model works with the probability distributions of the edges in a network. The one this extended essay focuses on is the Chung-Lu (canonical) Configuration Model because the probabilistic generation is also easier to analyse using the probabilistic method. \autocite{ScalefreeNetwork2026}
 
-In short, the model defines the probability of an edge between two nodes \( v_i \) and \( v_j \) to be:
+In short, the model defines the probability of an edge between two nodes \( v_h \) and \( v_j \) to be:
 
 \begin{equation} \label{eq:chung-lu-conf-model}
     p_{hj} = \frac{w_h w_j}{\sum_{i}{w_i}}
@@ -228,39 +228,39 @@ They further define that \( G \in G(\textbf{w}) \) to show that we are not talki
 Bringing the power law distribution and the weight requirements together, we come to this equation, originally published by Chung and Lu. 
 
 \begin{equation} \label{eq:weight-generation-equation}
-    w_i = c \times i^{ -\frac{1}{\gamma-1}}
+    w_i = w_{\text{max}} \times i^{ -\frac{1}{\gamma-1}}
 \end{equation}
 
-Where \( c \) is the maximum weight, \( i \) is the rank, and gamma the power law exponent. Choosing the maximum weight is best done by calculating the maximum value permitted by the equality \( k_i^2 < \sum_{i}{k_i}\), after all, a normalised weight should not exceed a probability of \( 1 \). To find c we need to take apart the equation summing all weights:
+Where \( w_{\text{max}} \) is the maximum weight, \( i \) is the rank, and \( \gamma \) the power law exponent. Choosing the maximum weight is best done by calculating the maximum value permitted by the equality \( w_i^2 < \sum_{i}{w_i}\), after all, a normalised weight should not exceed a probability of \( 1 \). To find \( w_{\text{max}} \) we need to take apart the equation summing all weights:
 
-\begin{equation}
-S = \sum_{i}{w_i} = \sum_{i}{c \times i^{ -\frac{1}{\gamma-1}}} = c \times \sum_{i}{i^{ -\frac{1}{\gamma-1}}} = cT
+\begin{equation} \label{eq:S-and-T-definition}
+S = \sum_{i}{w_i} = \sum_{i}{w_{\text{max}} \times i^{ -\frac{1}{\gamma-1}}} = w_{\text{max}} \times \sum_{i}{i^{ -\frac{1}{\gamma-1}}} = w_{\text{max}}T
 \end{equation}
 
 where \( S \) and \( T \) are chosen to keep the notation clean below. With this information, we can now apply the inequality:
 
-\begin{equation}
-w_i^2 < \sum_{i}{w_i} = w_{max}^2 < \sum_{i}{w_i}  = c^2 < S
-\end{equation}   
+\[
+w_i^2 < \sum_{i}{w_i} = w_{\text{max}}^2 < \sum_{i}{w_i}  = w_{\text{max}}^2 < S
+\]   
 
 In turn simplifying to:
-\begin{equation}
-c^2 \leq S = cT
-\end{equation} 
+\[
+w_{\text{max}}^2 \leq S = w_{\text{max}}T
+\] 
 
-If we divide by \(c\), since \(c > 0\):
-\begin{equation} 
-c \leq T
-\end{equation}   
+If we divide by \(w_{\text{max}}\), since \(w_{\text{max}} > 0\):
+\[ 
+w_{\text{max}} \leq T
+\]   
 
 And, as a reminder:
-\begin{equation} \
+\[
 T = \sum_{i}{i^{ -\frac{1}{\gamma-1}}}
-\end{equation}   
+\]   
 
 Therefore:
-\begin{equation} \label{eq:c-leq-T}
-c \leq \sum_{i}{i^{ -\frac{1}{\gamma-1}}}
+\begin{equation} \label{eq:wmax-leq-T}
+w_{\text{max}} \leq \sum_{i}{i^{ -\frac{1}{\gamma-1}}}
 \end{equation}
 
 
@@ -279,7 +279,7 @@ To understand the rest of this essay, it is important to clarify the concept of 
 Calculating possible arrangements of objects depends on the requirements. It is simplest to calculate all possible permutations when repetitions are allowed. If we have a 4-digit phone password where every digit can be a digit from 0-9 with repetitions there are: \[ 10 \times 10 \times 10 \times 10 = 10^{4} = 10000 \] possible permutations since every new digit we can choose from another set of 10 numbers. 
 
 Generalising, if we have \(n\) different types in a specific order of \(r\) items with repetitions allowed, we can assume there are: 
-\begin{equation}
+\begin{equation} \label{eq:permutations-with-repetition}
 n^{r}
 \end{equation}
 permutations.
@@ -291,7 +291,7 @@ If, however, we cannot have repeating values, because we are working with all th
 \[ \frac{7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1}{4 \times 3 \times 2 \times 1} = \frac{7!}{4}\]
 
 Generalising, if we chose \(r\) items from \(n\) different types where repetitions are not allowed we get:
-\begin{equation}
+\begin{equation} \label{eq:permutations-without-repetition}
 \frac{n!}{(n-r)!}
 \end{equation} 
 
@@ -304,7 +304,7 @@ Conventional notation switches the latter around meaning we generalise to:
 \[ \frac{n!}{r!(n-r)!} \]
 This formula is so common that it is shortened to:
 
-\begin{equation}
+\begin{equation} \label{eq:binomial-coefficient}
     \frac{n!}{r!(n-r)!} = \binom{n}{r}
 \end{equation}
 
@@ -415,7 +415,7 @@ On the other hand, below is a graph with 5 nodes where there are no monochromati
 
 To return to the probabilistic method and with the concept of Ramsey numbers explained here is the proof published by Erdős in 1947:
 \autocite{alonProbabilisticMethod2008}
-\begin{theorem}[Erdős 1947]
+\begin{theorem}[Erdős 1947] \label{thm:erdos-1947}
     If \( \binom{n}{k} \times 2^{1-\binom{k}{2}} < 1 \) then \( R(k,k) > n \)
 \end{theorem}    
 
@@ -433,17 +433,17 @@ There are k (from our diagonal Ramsey number \( R(k,k)\)) nodes from n total nod
 Next, let's define an event, \( A_S \) in which a clique \( S \) of size k is monochromatic. In other words, a subgraph which has k nodes of our initial graph \( K_n \) of a single colour. The probability of that occurring is:
 
 \[
-    P(A_S) = 2 \times (\frac{1}{2})^{\binom{k}{2}}
+    P(A_S) = 2 \times \left(\frac{1}{2}\right)^{\binom{k}{2}}
 \]
 Where the leading two is there because we do not care about which of the two colours the clique has. The \( \frac{1}{2} \) stems from the initial probability of the colouring of the edges. And the \( \binom{k}{2} \) defines all possible edges in the clique, i.e. all pairs of nodes. We can simplify this to:
 
 \[
-    P(A_S) = 2 \times (\frac{1}{2})^{\binom{k}{2}} = 2 \times 2^{-\binom{k}{2}} = 2^{1-\binom{k}{2}}
+    P(A_S) = 2 \times \left(\frac{1}{2}\right)^{\binom{k}{2}} = 2 \times 2^{-\binom{k}{2}} = 2^{1-\binom{k}{2}}
 \]
 
 Since there are \( \binom{n}{k} \) possible arrangements of the clique size k, we can then multiply that to find the probability of any clique of size k of any colour to be monochromatic:
 
-\begin{equation}
+\begin{equation} \label{eq:union-bound-clique}
    P(\text{there exists a monochromatic clique } K_k) \leq \binom{n}{k} \times 2^{1-\binom{k}{2}}
 \end{equation}
 
@@ -474,49 +474,49 @@ For n which we chose at the beginning of the proof.
 With both the concepts of scale free networks and the probabilistic method explained, we can now move on to the core of this essay. If we conceptually combine them both, trying to find a relation between clique sizes and the coefficient \( \gamma \) we expect an inverse relationship between the two since a lower \( \gamma \) value has shown to increase the density of the graph. A paper by \autocite{bianconiNumberCliquesRandom2006} comes to the following derivation (the notation has been slightly adapted to fit the rest of this essay):
 
 
-\begin{equation}
+\begin{equation} \label{eq:bianconi-marsili-bound}
     \bar{c} \simeq \sqrt{b}\, n^{\frac{3-\gamma}{4}}
 \end{equation}
 
-Where \( \bar{c} \) is the upper limit to the clique size, \( n \) is the number of nodes, \( \gamma \) stays the same, \( b \) is a new parameter which I will introduce below and c is the actual clique size of the graph. 
+Where \( \bar{c} \) is the upper limit to the clique size, \( n \) is the number of nodes, \( \gamma \) stays the same, \( b \) is a new parameter which I will introduce below and \( c \) is the actual clique size of the graph. 
 
 The authors of the paper define the constant \( b \) to be:
-\begin{equation}
+\begin{equation} \label{eq:b-original-bianconi-marsili}
 b = (\gamma - 1)\, m^{\gamma - 1}\, e\, \langle q \rangle^{\frac{1-\gamma}{2}}
 \end{equation}
 
 Adapted to the notation consistent with this essay:
 
-\begin{equation}
-b = (\gamma - 1)\, w_{min}^{\gamma - 1}\, e\, \left (\frac{S}{n} \right ) ^{\frac{1-\gamma}{2}}
+\begin{equation} \label{eq:b-adapted}
+b = (\gamma - 1)\, w_{\text{min}}^{\gamma - 1}\, e\, \left (\frac{S}{n} \right ) ^{\frac{1-\gamma}{2}}
 \end{equation}
 
-Although not immediately introduced, \( w_{min} \) can be directly derived from \( w_{max} \) as \textit{cite paper here} show:
+Although not immediately introduced, \( w_{\text{min}} \) can be directly derived from \( w_{\text{max}} \) as \textit{cite paper here} show:
 
-\begin{equation}
-    w_{max} \approx w_{min}\, n^{\frac{1}{\gamma - 1}}
+\begin{equation} \label{eq:wmax-wmin-relation}
+    w_{\text{max}} \approx w_{\text{min}}\, n^{\frac{1}{\gamma - 1}}
 \end{equation}
 
 Rearranging to:
-\begin{equation}
-    w_{min} \approx w_{max}\, n^{-\frac{1}{\gamma - 1}}
-\end{equation}
+\[
+    w_{\text{min}} \approx w_{\text{max}}\, n^{-\frac{1}{\gamma - 1}}
+\]
 
 
 Putting everything together:
-\begin{equation}
-    b = (\gamma - 1) \left ( w_{max}\, n^{-\frac{1}{\gamma - 1}} \right )^{\gamma - 1}\, e \left (\frac{S}{n} \right ) ^{\frac{1-\gamma}{2}}
-\end{equation}
+\[
+    b = (\gamma - 1) \left ( w_{\text{max}}\, n^{-\frac{1}{\gamma - 1}} \right )^{\gamma - 1}\, e \left (\frac{S}{n} \right ) ^{\frac{1-\gamma}{2}}
+\]
 
 Which simplifies to:
-\begin{equation}
-    b = (\gamma - 1)  \frac{w_{max}^{\gamma - 1}}{n} \, e \left (\frac{S}{n} \right ) ^{\frac{1-\gamma}{2}}
+\begin{equation} \label{eq:b-simplified}
+    b = (\gamma - 1)  \frac{w_{\text{max}}^{\gamma - 1}}{n} \, e \left (\frac{S}{n} \right ) ^{\frac{1-\gamma}{2}}
 \end{equation}
 
 As a reminder:
 
 \[
-w_{max} = \sum_{i}{i^{ -\frac{1}{\gamma-1}}}
+w_{\text{max}} = \sum_{i}{i^{ -\frac{1}{\gamma-1}}}
 \]
 
 
@@ -528,7 +528,7 @@ In other words, to move forward predicting the next step, we need to define \( \
 
 \begin{table}[H]
 \centering
-\label{tab:node-weights}
+\label{tab:params-initial}
 \begin{tabular}{c c}
 \toprule
 {Variable} & {Value}  \\
@@ -540,23 +540,23 @@ In other words, to move forward predicting the next step, we need to define \( \
 \caption{}
 \end{table}
 
-We can then calculate \( w_{max} \):
+We can then calculate \( w_{\text{max}} \):
 
 \[
-w_{max} = \sum_{i=1}^{n}{i^{ -\frac{1}{\gamma-1}}} = \sum_{i=1}^{1000}{i^{ -\frac{1}{2.4-1}}} = 22.248620809477696
+w_{\text{max}} = \sum_{i=1}^{n}{i^{ -\frac{1}{\gamma-1}}} = \sum_{i=1}^{1000}{i^{ -\frac{1}{2.4-1}}} = 22.248620809477696
 \]
 
-And then calculate \( b \), assuming \( w_{max}^2 = S \):
+And then calculate \( b \), assuming \( w_{\text{max}}^2 = S \):
 
 \[
- b = (\gamma - 1)  \frac{w_{max}^{\gamma - 1}}{n} \, e \left (\frac{S}{n} \right ) ^{\frac{1-\gamma}{2}} = (2.4 - 1)  \frac{10.121^{2.4 - 1}}{1000} \, e \left (\frac{10.121^2}{1000} \right ) ^{\frac{1-2.4}{2}} = 0.4790959698
+ b = (\gamma - 1)  \frac{w_{\text{max}}^{\gamma - 1}}{n} \, e \left (\frac{S}{n} \right ) ^{\frac{1-\gamma}{2}} = (2.4 - 1)  \frac{10.121^{2.4 - 1}}{1000} \, e \left (\frac{10.121^2}{1000} \right ) ^{\frac{1-2.4}{2}} = 0.4790959698
 \]
 
 We can then update the table:
 
 \begin{table}[H]
 \centering
-\label{tab:node-weights}
+\label{tab:params-updated}
 \begin{tabular}{c c}
 \toprule
 {Variable} & {Value}  \\
@@ -575,10 +575,10 @@ And insert all the variables:
     \bar{c} \simeq \sqrt{b}\, n^{\frac{3-\gamma}{4}} = \sqrt{0.9559509674}\, 100^{\frac{3-2.4}{4}} = 1.950822736
 \]
 
-In other words, we predict that when we set \( w_{min} = 0.005 \) then the maximal clique size at \( \gamma = 2.4 \) in a scale free network with \( n = 10 000 \) nodes is 2 since a clique size needs to be an integer. 
+In other words, we predict that when we set \( w_{\text{min}} = 0.005 \) then the maximal clique size at \( \gamma = 2.4 \) in a scale free network with \( n = \num{10000} \) nodes is 2 since a clique size needs to be an integer. 
 
-This number is tightly bound, however, because we have to reflect the bounds on the parameters and the statistical meaning. The authors set a boundary of \( \epsilon \in 0,1 \) and \( \gamma \in 2,3 \) as both of these change random generation drastically if outside the bounds. Furthermore, if the graph is not dense enough, it will become nearly impossible to work with probabilities correctly as there is no meaningful number of edges that could generate a clique and therefore show the same prediction. At \( \gamma = 2.4 \) we can assume the edge density to be meaningful enough, however any greater makes the \( n = 10 000 \) node graph have a density of less than \( 1 \% \). 
-Specifically for this reason the generation of the scale free networks in the next section will make use of a very high \( w_{min} \) value which will lead to high clipping rates as discussed in section \ref{sec:scale-free-networks}. These are, however, necessary because the limited computing power available to me limits the maximum nodes I can generate en masse.
+This number is tightly bound, however, because we have to reflect the bounds on the parameters and the statistical meaning. The authors set a boundary of \( \epsilon \in 0,1 \) and \( \gamma \in 2,3 \) as both of these change random generation drastically if outside the bounds. Furthermore, if the graph is not dense enough, it will become nearly impossible to work with probabilities correctly as there is no meaningful number of edges that could generate a clique and therefore show the same prediction. At \( \gamma = 2.4 \) we can assume the edge density to be meaningful enough, however any greater makes the \( n = \num{10000} \) node graph have a density of less than \( 1 \% \). 
+Specifically for this reason the generation of the scale free networks in the next section will make use of a very high \( w_{\text{min}} \) value which will lead to high clipping rates as discussed in section \ref{sec:scale-free-networks}. These are, however, necessary because the limited computing power available to me limits the maximum nodes I can generate en masse.
 As a result this essay is taking an empirical approach to find a relation between \( \gamma \) and maximal clique sizes.
 
 \section{Building Scale Free Networks}
@@ -588,26 +588,26 @@ As a result this essay is taking an empirical approach to find a relation betwee
 
 % The theoretical derivation from section \ref{sec:predicting-clique-sizes} shows the inversely proportional relationship between the degree power coefficient \( \gamma \) and the maximum clique size of a scale free network.
 
-To generate the random scale free networks required to empirically explore these graphs, I instructed Claude Sonnet 5 to generate a python script which sweeps through gamma values 2.0 to 3.5 taking steps of 0.05. The script generated a total 31000 graphs with 10000 nodes each, generating 1000 different graphs per gamma value. I then plotted the bivariate relationship between gamma and maximal clique size on a coordinate plane. For the reader to understand the generation process the following part will build a much smaller scale free network on paper. 
+To generate the random scale free networks required to empirically explore these graphs, I instructed Claude Sonnet 5 to generate a python script which sweeps through \( \gamma \) values 2.0 to 3.5 taking steps of 0.05. The script generated a total 31000 graphs with 10000 nodes each, generating 1000 different graphs per \( \gamma \) value. I then plotted the bivariate relationship between \( \gamma \) and maximal clique size on a coordinate plane. For the reader to understand the generation process the following part will build a much smaller scale free network on paper. 
 
 Let's generate a graph of \( n=5 \) nodes with gamma coefficient \( \gamma = 2.3 \). First we need to generate the relevant weights attributed to every node. From the \textit{cite the paper here} we know to use equation \ref{eq:weight-generation-equation} from section \ref{sec:scale-free-networks}
 
 \[
-    w_i = c \times i^{ -\frac{1}{\gamma-1}}
+    w_i = w_{\text{max}} \times i^{ -\frac{1}{\gamma-1}}
 \]
 
-The first step is to calculate the largest possible \( c \). From equation \ref{eq:c-leq-T} we know: 
+The first step is to calculate the largest possible \( w_{\text{max}} \). From equation \ref{eq:wmax-leq-T} we know: 
 
 \[
-c \leq \sum_{i}{i^{ -\frac{1}{\gamma-1}}}
+w_{\text{max}} \leq \sum_{i}{i^{ -\frac{1}{\gamma-1}}}
 \]
 Inserting the variables: 
 \[
-c = \sum_{i = 5}{i^{ -\frac{1}{2.3-1}}} 
+w_{\text{max}} = \sum_{i = 5}{i^{ -\frac{1}{2.3-1}}} 
 \]
 And calculating using Excel:
 \[
-c = 2.650457959
+w_{\text{max}} = 2.650457959
 \]
 
 Next we have to calculate the weight of every node. To simplify these steps, we can make the exponent \( \frac{1}{\gamma-1} \) a constant:
@@ -624,7 +624,7 @@ And build a table calculating every step:
 \label{tab:rank-weights}
 \begin{tabular}{c S[table-format=1.3] S[table-format=1.3] S[table-format=1.3]}
 \toprule
-{rank $i$} & {$c$} & {$i^{-\alpha}$} & {$w_i = c \times i^{-\alpha}$} \\
+{rank \(i\)} & {\(w_{\text{max}}\)} & {\(i^{-\alpha}\)} & {\(w_i = w_{\text{max}} \times i^{-\alpha}\)} \\
 \midrule
 1 & 2.650 & 1.000 & 2.650 \\
 2 & 2.650 & 0.587 & 1.555 \\
@@ -641,10 +641,10 @@ Next we need to allocate a weight to every node,  for simplicity the rank and no
 
 \begin{table}[htbp]
 \centering
-\label{tab:node-weights}
+\label{tab:node-weight-allocation}
 \begin{tabular}{c S[table-format=1.3] S[table-format=1.3]}
 \toprule
-{rank $i$} & {node \( v_i \)} & {weight \( w_i \)} \\
+{rank \(i\)} & {node \( v_i \)} & {weight \( w_i \)} \\
 \midrule
 1 & 1 & 2.650 \\
 2 & 2 & 1.555 \\
@@ -659,7 +659,7 @@ Next we need to allocate a weight to every node,  for simplicity the rank and no
 With the node weights generated we can calculate the probabilities of generating an edge between two nodes. For that we follow equation \ref{eq:chung-lu-conf-model}:
 
 \[
-    p_{hj} = \frac{w_i w_j}{\sum_{h}{w_i}}
+    p_{hj} = \frac{w_h w_j}{\sum_{i}{w_i}}
 \]
 We can first calculate \( \sum_{i}{w_i} \) by summing up all weights:
 
@@ -670,10 +670,10 @@ We can first calculate \( \sum_{i}{w_i} \) by summing up all weights:
 This also allows us to check whether the weights are feasible:
 
 \[
-k_{max}^2< \sum_{i}{w_i} = 2.650^2 < 7.02492739 = 7.02492739
+w_{\text{max}}^2< \sum_{i}{w_i} = 2.650^2 < 7.02492739 = 7.02492739
 \]
 
-Since we decided to take the largest possible value for \( k_max \) following the equality from before, we are now faced with the fact that the graph, specifcially the node with the largest weight would have a guaranteed loop. Since we are working with simple graphs, however, there are no loops meaning that this is not a problem.
+Since we decided to take the largest possible value for \( w_{\text{max}} \) following the equality from before, we are now faced with the fact that the graph, specifically the node with the largest weight would have a guaranteed loop. Since we are working with simple graphs, however, there are no loops meaning that this is not a problem.
 
 We can then calculate all weight products:
 
@@ -682,13 +682,13 @@ We can then calculate all weight products:
   \label{tab:calculated-probabilities-step-1}
   \begin{tabular}{c S[table-format=2.3] S[table-format=2.3] S[table-format=2.3] S[table-format=2.3] S[table-format=2.3]}
     \toprule
-    {} & {$w_1 = 2.650$} & {$w_2 = 1.555$} & {$w_3 = 1.138$} & {$w_4 = 0.912$} & {$w_5 = 0.769$} \\
+    {} & {\(w_1 = 2.650\)} & {\(w_2 = 1.555\)} & {\(w_3 = 1.138\)} & {\(w_4 = 0.912\)} & {\(w_5 = 0.769\)} \\
     \midrule
-    $w_1 = 2.650$ & {} & 4.122 & 3.017 & 2.418 & 2.037 \\
-    $w_2 = 1.555$ & 4.122 & {} & 1.770 & 1.419 & 1.195 \\
-    $w_3 = 1.138$ & 3.017 & 1.770 & {} & 1.039 & 0.875 \\
-    $w_4 = 0.912$ & 2.418 & 1.419 & 1.039 & {} & 0.701 \\
-    $w_5 = 0.769$ & 2.037 & 1.195 & 0.875 & 0.701 & {} \\
+    \(w_1 = 2.650\) & {} & 4.122 & 3.017 & 2.418 & 2.037 \\
+    \(w_2 = 1.555\) & 4.122 & {} & 1.770 & 1.419 & 1.195 \\
+    \(w_3 = 1.138\) & 3.017 & 1.770 & {} & 1.039 & 0.875 \\
+    \(w_4 = 0.912\) & 2.418 & 1.419 & 1.039 & {} & 0.701 \\
+    \(w_5 = 0.769\) & 2.037 & 1.195 & 0.875 & 0.701 & {} \\
     \bottomrule
   \end{tabular}
   \caption{Pairwise products of weights}
@@ -705,17 +705,17 @@ We can then divide by the sum of all weights \( \sum_{i}{w_i}=7.025 \):
   \begin{tabular}{c S[table-format=1.3] S[table-format=1.3] S[table-format=1.3] S[table-format=1.3] S[table-format=1.3]}
     \toprule
     {} & 
-    {$\frac{w_1}{\sum_i w_i} = \frac{2.650}{7.025}$} & 
-    {$\frac{w_2}{\sum_i w_i} = \frac{1.555}{7.025}$} & 
-    {$\frac{w_3}{\sum_i w_i} = \frac{1.138}{7.025}$} & 
-    {$\frac{w_4}{\sum_i w_i} = \frac{0.912}{7.025}$} & 
-    {$\frac{w_5}{\sum_i w_i} = \frac{0.769}{7.025}$} \\
+    {\(\frac{w_1}{\sum_i w_i} = \frac{2.650}{7.025}\)} & 
+    {\(\frac{w_2}{\sum_i w_i} = \frac{1.555}{7.025}\)} & 
+    {\(\frac{w_3}{\sum_i w_i} = \frac{1.138}{7.025}\)} & 
+    {\(\frac{w_4}{\sum_i w_i} = \frac{0.912}{7.025}\)} & 
+    {\(\frac{w_5}{\sum_i w_i} = \frac{0.769}{7.025}\)} \\
     \midrule
-    $w_1 = 2.650$ & {}          & 0.587   & 0.430   & 0.344   & 0.290   \\
-    $w_2 = 1.555$ & 0.587   & {}            & 0.252 & 0.202   & 0.170   \\
-    $w_3 = 1.138$ & 0.430   & 0.252   & {}          & 0.148   & 0.125   \\
-    $w_4 = 0.912$ & 0.344   & 0.202   & 0.148   & {}          & 0.100   \\
-    $w_5 = 0.769$ & 0.290   & 0.170   & 0.125   & 0.100   & {}          \\
+    \(w_1 = 2.650\) & {}          & 0.587   & 0.430   & 0.344   & 0.290   \\
+    \(w_2 = 1.555\) & 0.587   & {}            & 0.252 & 0.202   & 0.170   \\
+    \(w_3 = 1.138\) & 0.430   & 0.252   & {}          & 0.148   & 0.125   \\
+    \(w_4 = 0.912\) & 0.344   & 0.202   & 0.148   & {}          & 0.100   \\
+    \(w_5 = 0.769\) & 0.290   & 0.170   & 0.125   & 0.100   & {}          \\
 
 
     \bottomrule
@@ -724,7 +724,7 @@ We can then divide by the sum of all weights \( \sum_{i}{w_i}=7.025 \):
 \end{table}
 
 We now have the theoretical probability of an edge between every node in our graph.
-We can now generate the actual edges. In the script, a random value is generated between 0 and 1 and if it is less than the value, and edge is placed. For the purpose of this demonstration Excel generated the values. As a reminder, node \(v_i \) has weight \(w_i\).
+We can now generate the actual edges. In the script, a random value is generated between 0 and 1 and if it is less than the value, an edge is placed. For the purpose of this demonstration Excel generated the values. As a reminder, node \(v_i \) has weight \(w_i\).
 
 \begin{table}[H]
   \centering
@@ -790,7 +790,7 @@ If we were to draw it, this would be the result:
 
 % After generating a statistically meaningful number of graphs we can conclude that empirical data is in line with literature. The small deviation in maximal clique sizes can be explained by the findings of \textit{cite here} paper. It is important to note, however, that there is a large number of 
 
-The generation of a statistically meaningful number of graphs means we can empirically make conclusions about relationships between \( \gamma \) and the maximal clique size \( c \). It seems like \( c \) follows a quadratic relationship to \( \gamma \). This relationship holds at an \( R^2 = 0.968 \text{and} 0.9995 \), depending on the number of nodes, \(n\) greater than any other common relationship. It is important to consider how small changes in the parameters in the generation of the graphs has led to broadly different answers, however all generations I have made follow different parts of the standard parabolic curve. It is also a feasible relationship, i.e. one that could have been expected, although these unfounded assumptions can be misleading and should be taken with caution.
+The generation of a statistically meaningful number of graphs means we can empirically make conclusions about relationships between \( \gamma \) and the maximal clique size \( c \). It seems like \( c \) follows a quadratic relationship to \( \gamma \). This relationship holds at an \( R^2 = 0.968 \text{ and } 0.9995 \), depending on the number of nodes, \(n\) greater than any other common relationship. It is important to consider how small changes in the parameters in the generation of the graphs has led to broadly different answers, however all generations I have made follow different parts of the standard parabolic curve. It is also a feasible relationship, i.e. one that could have been expected, although these unfounded assumptions can be misleading and should be taken with caution.
 
 
 
@@ -800,7 +800,7 @@ The generation of a statistically meaningful number of graphs means we can empir
 % -	Conclude on the uses of my results
 % To conclude, the application of scale free networks is very useful in the real world which makes them worth exploring both through an abstract and applicative lens. Through the use of the probabilistic method it is possible to predict patterns in randomly generated scale free networks which can then be applied to real world graphs such as large social media networks, or telecommunications optimisation problems. It is remarkable how these highly specific concepts dictate our every day lives in which very few people can imagine. 
 
-With an understanding of the inverse relationship between gamma and clique sizes we can estimate how interconnected we expect a certain graph can be. As power law distributions are common in nature, this information is vital to make simple initial estimates of the gamma coefficient if we have a clique size, and vice versa if we have gamma. Although not mathematically rigorous, this information can then be further used to apply other statistical or mathematical methods to analyse graphs such as the internet, AWS 
+With an understanding of the inverse relationship between \( \gamma \) and clique sizes we can estimate how interconnected we expect a certain graph can be. As power law distributions are common in nature, this information is vital to make simple initial estimates of the \( \gamma \) coefficient if we have a clique size, and vice versa if we have \( \gamma \). Although not mathematically rigorous, this information can then be further used to apply other statistical or mathematical methods to analyse graphs such as the internet, AWS 
 
 
 \printbibliography[title={Works Cited}]
