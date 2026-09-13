@@ -62,7 +62,59 @@
       \verb /Users/johannes/Zotero/storage/VICE3LMU/Alon and Spencer - 2008 - The probabilistic method.pdf
       \endverb
     \endentry
-    \entry{zotero-item-420}{unpublished}{}{}
+    \entry{bianconiNumberCliquesRandom2006}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4cd18b85ef5745178ffbaf9b01920c77}{%
+           family={Bianconi},
+           familyi={B\bibinitperiod},
+           given={Ginestra},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9382e7157f90a54aa6650e8c74c6dfe9}{%
+           family={Marsili},
+           familyi={M\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f72607858d4e5288fbf6a9c3986ef8a9}
+      \strng{fullhash}{f72607858d4e5288fbf6a9c3986ef8a9}
+      \strng{fullhashraw}{f72607858d4e5288fbf6a9c3986ef8a9}
+      \strng{bibnamehash}{f72607858d4e5288fbf6a9c3986ef8a9}
+      \strng{authorbibnamehash}{f72607858d4e5288fbf6a9c3986ef8a9}
+      \strng{authornamehash}{f72607858d4e5288fbf6a9c3986ef8a9}
+      \strng{authorfullhash}{f72607858d4e5288fbf6a9c3986ef8a9}
+      \strng{authorfullhashraw}{f72607858d4e5288fbf6a9c3986ef8a9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper we calculate the average number of cliques in random scale-free networks. We consider first the hidden variable ensemble and subsequently the Molloy Reed ensemble. In both cases we find that cliques, i.e. fully connected subgraphs, appear also when the average degree is finite. This is in contrast to what happens in Erdös and Renyi graphs in which diverging average degree is required to observe cliques of size \$c{$>$}3\$. Moreover we show that in random scale-free networks the clique number, i.e. the size of the largest clique present in the network diverges with the system size.}
+      \field{eprinttype}{arXiv}
+      \field{issn}{01672789}
+      \field{journaltitle}{Physica D: Nonlinear Phenomena}
+      \field{month}{12}
+      \field{number}{1--2}
+      \field{shortjournal}{Physica D: Nonlinear Phenomena}
+      \field{title}{Number of Cliques in Random Scale-Free Network Ensembles}
+      \field{volume}{224}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.physd.2006.09.013
+      \endverb
+      \verb{eprint}
+      \verb cond-mat/0606088
+      \endverb
+      \verb{file}
+      \verb /Users/johannes/Zotero/storage/KQRWSHU2/Bianconi and Marsili - 2006 - Number of cliques in random scale-free network ensembles.pdf;/Users/johannes/Zotero/storage/IYHAI9RI/0606088.html
+      \endverb
+      \keyw{Condensed Matter - Statistical Mechanics,Physics - Physics and Society}
+    \endentry
+    \entry{chahamisRamseyNumbers2018}{report}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=41cfc1e13c910e798cdd3538845fe59c}{%
            family={Chachamis},
@@ -70,6 +122,9 @@
            given={Christos},
            giveni={C\bibinitperiod},
            givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Massachusetts Institute of Technology}%
       }
       \strng{namehash}{41cfc1e13c910e798cdd3538845fe59c}
       \strng{fullhash}{41cfc1e13c910e798cdd3538845fe59c}
@@ -87,7 +142,7 @@
       \field{day}{13}
       \field{month}{5}
       \field{title}{Ramsey {{Numbers}}}
-      \field{type}{Lecture}
+      \field{type}{Lecture Paper}
       \field{year}{2018}
       \field{dateera}{ce}
       \verb{urlraw}
@@ -146,9 +201,42 @@
       \verb /Users/johannes/Zotero/storage/3LCDAF5U/Chung and Lu - 2002 - The average distances in random graphs with given expected degrees.pdf
       \endverb
     \endentry
+    \entry{CliqueGraphTheory2025}{inreference}{}{}
+      \list{publisher}{1}{%
+        {Wikimedia Foundation}%
+      }
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In graph theory, a clique ( or ) is a subset of vertices of an undirected graph such that every two distinct vertices in the clique are adjacent. That is, a clique of a graph G \{\textbackslash displaystyle G\} is an induced subgraph of G \{\textbackslash displaystyle G\} that is complete. Cliques are one of the basic concepts of graph theory and are used in many other mathematical problems and constructions on graphs. Cliques have also been studied in computer science: the task of finding whether there is a clique of a given size in a graph (the clique problem) is NP-complete, but despite this hardness result, many algorithms for finding cliques have been studied. Although the study of complete subgraphs goes back at least to the graph-theoretic reformulation of Ramsey theory by Erdős \& Szekeres (1935), the term clique comes from Luce \& Perry (1949), who used complete subgraphs in social networks to model cliques of people; that is, groups of people all of whom know each other. Cliques have many other applications in the sciences and particularly in bioinformatics.}
+      \field{booktitle}{Wikipedia}
+      \field{day}{24}
+      \field{hour}{12}
+      \field{langid}{english}
+      \field{minute}{35}
+      \field{month}{6}
+      \field{second}{32}
+      \field{timezone}{Z}
+      \field{title}{Clique (Graph Theory)}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/johannes/Zotero/storage/736SVEQG/index.html
+      \endverb
+      \verb{urlraw}
+      \verb en.wikipedia.org/w/index.php?title=Clique_(graph_theory)&oldid=1297153007
+      \endverb
+      \verb{url}
+      \verb en.wikipedia.org/w/index.php?title=Clique_(graph_theory)&oldid=1297153007
+      \endverb
+    \endentry
     \entry{CombinationsPermutations}{online}{}{}
       \list{organization}{1}{%
-        {Math is Fun}%
+        {Maths is Fun}%
       }
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
@@ -168,6 +256,112 @@
       \endverb
       \verb{url}
       \verb www.mathsisfun.com/combinatorics/combinations-permutations.html
+      \endverb
+    \endentry
+    \entry{ConfigurationModel2025}{inreference}{}{}
+      \list{publisher}{1}{%
+        {Wikimedia Foundation}%
+      }
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In network science, the Configuration Model is a family of random graph models designed to generate networks from a given degree sequence. Unlike simpler models such as the Erdős–Rényi model, Configuration Models preserve the degree of each vertex as a pre-defined property. This flexibility allows the modeler to construct networks with arbitrary degree distributions, making it widely used as a reference model for real-life networks, particularly in social, biological, and technological domains. The concept of "Configuration Model" was first introduced by Béla Bollobás, who laid the foundation for its application in graph theory and network science.}
+      \field{booktitle}{Wikipedia}
+      \field{day}{10}
+      \field{hour}{13}
+      \field{langid}{english}
+      \field{minute}{54}
+      \field{month}{11}
+      \field{second}{55}
+      \field{timezone}{Z}
+      \field{title}{Configuration Model}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/johannes/Zotero/storage/S4UA9AZG/index.html
+      \endverb
+      \verb{urlraw}
+      \verb en.wikipedia.org/w/index.php?title=Configuration_model&oldid=1321430164
+      \endverb
+      \verb{url}
+      \verb en.wikipedia.org/w/index.php?title=Configuration_model&oldid=1321430164
+      \endverb
+    \endentry
+    \entry{DegreeGraphTheory2026}{inreference}{}{}
+      \list{publisher}{1}{%
+        {Wikimedia Foundation}%
+      }
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In graph theory, the degree (or valency) of a vertex of a graph is the number of edges that are incident to the vertex; in a multigraph, a loop contributes 2 to a vertex's degree, for the two ends of the edge. The degree of a vertex v \{\textbackslash displaystyle v\} is denoted deg ⁡ ( v ) \{\textbackslash displaystyle \textbackslash deg(v)\} or deg ⁡ v \{\textbackslash displaystyle \textbackslash deg v\} . The maximum degree of a graph G \{\textbackslash displaystyle G\} is denoted by Δ ( G ) \{\textbackslash displaystyle \textbackslash Delta (G)\} , and is the maximum of G \{\textbackslash displaystyle G\} 's vertices' degrees. The minimum degree of a graph is denoted by δ ( G ) \{\textbackslash displaystyle \textbackslash delta (G)\} , and is the minimum of G \{\textbackslash displaystyle G\} 's vertices' degrees. In the multigraph shown on the right, the maximum degree is 5 and the minimum degree is 0. In a regular graph, every vertex has the same degree, and so we can speak of the degree of the graph. A complete graph (denoted K n \{\textbackslash displaystyle K\_\{n\}\} , where n \{\textbackslash displaystyle n\} is the number of vertices in the graph) is a special kind of regular graph where all vertices have the maximum possible degree, n − 1 \{\textbackslash displaystyle n-1\} . In a signed graph, the number of positive edges connected to a vertex is called its positive degree and the number of connected negative edges is called negative degree.}
+      \field{booktitle}{Wikipedia}
+      \field{day}{19}
+      \field{hour}{22}
+      \field{langid}{english}
+      \field{minute}{22}
+      \field{month}{2}
+      \field{second}{43}
+      \field{timezone}{Z}
+      \field{title}{Degree (Graph Theory)}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/johannes/Zotero/storage/YK29YC33/index.html
+      \endverb
+      \verb{urlraw}
+      \verb en.wikipedia.org/w/index.php?title=Degree_(graph_theory)&oldid=1339300235
+      \endverb
+      \verb{url}
+      \verb en.wikipedia.org/w/index.php?title=Degree_(graph_theory)&oldid=1339300235
+      \endverb
+    \endentry
+    \entry{erdosRemarksTheoryGraphs1947}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=70d9d408fdee7264b5dc9b333c733318}{%
+           family={Erdös},
+           familyi={E\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{70d9d408fdee7264b5dc9b333c733318}
+      \strng{fullhash}{70d9d408fdee7264b5dc9b333c733318}
+      \strng{fullhashraw}{70d9d408fdee7264b5dc9b333c733318}
+      \strng{bibnamehash}{70d9d408fdee7264b5dc9b333c733318}
+      \strng{authorbibnamehash}{70d9d408fdee7264b5dc9b333c733318}
+      \strng{authornamehash}{70d9d408fdee7264b5dc9b333c733318}
+      \strng{authorfullhash}{70d9d408fdee7264b5dc9b333c733318}
+      \strng{authorfullhashraw}{70d9d408fdee7264b5dc9b333c733318}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1088-9485, 0273-0979}
+      \field{journaltitle}{Bulletin of the American Mathematical Society}
+      \field{langid}{english}
+      \field{number}{4}
+      \field{shortjournal}{Bull. Amer. Math. Soc.}
+      \field{title}{Some Remarks on the Theory of Graphs}
+      \field{volume}{53}
+      \field{year}{1947}
+      \field{dateera}{ce}
+      \field{pages}{292\bibrangedash 294}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1090/S0002-9904-1947-08785-1
+      \endverb
+      \verb{file}
+      \verb /Users/johannes/Zotero/storage/6DRT5BNZ/Erdös - 1947 - Some remarks on the theory of graphs.pdf
       \endverb
     \endentry
     \entry{fasinoGeneratingLargeScalefree2021}{article}{}{}
@@ -222,6 +416,72 @@
       \verb /Users/johannes/Zotero/storage/BQQ57J5E/Fasino et al. - 2021 - Generating large scale-free networks with the Chung–Lu random graph model.pdf;/Users/johannes/Zotero/storage/KDJZTKHJ/net.html
       \endverb
       \keyw{Chung–Lu model,generative models,giant component,random graphs,scale-free networks}
+    \endentry
+    \entry{GlossaryGraphTheory2026}{inreference}{}{}
+      \list{publisher}{1}{%
+        {Wikimedia Foundation}%
+      }
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This is a glossary of graph theory. Graph theory is the study of graphs, systems of nodes or vertices connected in pairs by lines or edges.}
+      \field{booktitle}{Wikipedia}
+      \field{day}{8}
+      \field{hour}{6}
+      \field{langid}{english}
+      \field{minute}{24}
+      \field{month}{9}
+      \field{second}{14}
+      \field{timezone}{Z}
+      \field{title}{Glossary of Graph Theory}
+      \field{urlday}{13}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/johannes/Zotero/storage/4L87FR5K/index.html
+      \endverb
+      \verb{urlraw}
+      \verb en.wikipedia.org/w/index.php?title=Glossary_of_graph_theory&oldid=1373839425
+      \endverb
+      \verb{url}
+      \verb en.wikipedia.org/w/index.php?title=Glossary_of_graph_theory&oldid=1373839425
+      \endverb
+    \endentry
+    \entry{GraphDiscreteMathematics2026}{inreference}{}{}
+      \list{publisher}{1}{%
+        {Wikimedia Foundation}%
+      }
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In discrete mathematics, particularly in graph theory, a graph is a structure consisting of a set of objects where some pairs of the objects are in some sense "related". The objects are represented by abstractions called vertices (also called nodes or points) and each of the related pairs of vertices is called an edge (also called link or line). Typically, a graph is depicted in diagrammatic form as a set of dots or circles for the vertices, joined by lines or curves for the edges. The edges may be directed or undirected. For example, if the vertices represent people at a party, and there is an edge between two people if they shake hands, then this graph is undirected because any person A can shake hands with a person B only if B also shakes hands with A. In contrast, if an edge from a person A to a person B means that A owes money to B, then this graph is directed, because owing money is not necessarily reciprocated. Graphs are the basic subject studied by graph theory. The word "graph" was first used in this sense by J. J. Sylvester in 1878 due to a direct relation between mathematics and chemical structure (what he called a chemico-graphical image).}
+      \field{booktitle}{Wikipedia}
+      \field{day}{5}
+      \field{hour}{21}
+      \field{langid}{english}
+      \field{minute}{32}
+      \field{month}{7}
+      \field{second}{56}
+      \field{timezone}{Z}
+      \field{title}{Graph (Discrete Mathematics)}
+      \field{urlday}{13}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/johannes/Zotero/storage/HJYAFZQC/index.html
+      \endverb
+      \verb{urlraw}
+      \verb en.wikipedia.org/w/index.php?title=Graph_(discrete_mathematics)&oldid=1362731879#Undirected_graph
+      \endverb
+      \verb{url}
+      \verb en.wikipedia.org/w/index.php?title=Graph_(discrete_mathematics)&oldid=1362731879#Undirected_graph
+      \endverb
     \endentry
     \entry{jursaCliqueNumberEstimates2020}{article}{}{}
       \name{author}{3}{}{%
@@ -285,73 +545,14 @@
       \verb 10.1093/comnet/cnaa011
       \endverb
     \endentry
-    \entry{CliqueGraphTheory2025}{inreference}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b6aea1a416c89509a7df1cbb69249cb6}{%
-           family={{Wikipedia contributors}},
-           familyi={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{fullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorfullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
-      \field{extraname}{1}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{In graph theory, a clique ( or ) is a subset of vertices of an undirected graph such that every two distinct vertices in the clique are adjacent. That is, a clique of a graph G \{\textbackslash displaystyle G\} is an induced subgraph of G \{\textbackslash displaystyle G\} that is complete. Cliques are one of the basic concepts of graph theory and are used in many other mathematical problems and constructions on graphs. Cliques have also been studied in computer science: the task of finding whether there is a clique of a given size in a graph (the clique problem) is NP-complete, but despite this hardness result, many algorithms for finding cliques have been studied. Although the study of complete subgraphs goes back at least to the graph-theoretic reformulation of Ramsey theory by Erdős \& Szekeres (1935), the term clique comes from Luce \& Perry (1949), who used complete subgraphs in social networks to model cliques of people; that is, groups of people all of whom know each other. Cliques have many other applications in the sciences and particularly in bioinformatics.}
-      \field{annotation}{Page Version ID: 1297153007}
-      \field{booktitle}{Wikipedia}
-      \field{day}{24}
-      \field{hour}{12}
-      \field{langid}{english}
-      \field{minute}{35}
-      \field{month}{6}
-      \field{second}{32}
-      \field{timezone}{Z}
-      \field{title}{Clique (Graph Theory)}
-      \field{urlday}{31}
-      \field{urlmonth}{5}
-      \field{urlyear}{2026}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /Users/johannes/Zotero/storage/736SVEQG/index.html
-      \endverb
-      \verb{urlraw}
-      \verb en.wikipedia.org/w/index.php?title=Clique_(graph_theory)&oldid=1297153007
-      \endverb
-      \verb{url}
-      \verb en.wikipedia.org/w/index.php?title=Clique_(graph_theory)&oldid=1297153007
-      \endverb
-    \endentry
     \entry{ScalefreeNetwork2026}{inreference}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b6aea1a416c89509a7df1cbb69249cb6}{%
-           family={{Wikipedia contributors}},
-           familyi={W\bibinitperiod}}}%
+      \list{publisher}{1}{%
+        {Wikimedia Foundation}%
       }
-      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{fullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorfullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
-      \field{extraname}{2}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{labelnamesource}{author}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labeltitlesource}{title}
       \field{abstract}{A scale-free network is a network whose degree distribution follows a power law, at least asymptotically. That is, the fraction P(k) of nodes in the network having k connections to other nodes goes for large values of k as P ( k ) ∼ k − γ \{\textbackslash displaystyle P(k)\textbackslash{} \textbackslash sim \textbackslash{} k\textasciicircum\{\textbackslash boldsymbol \{-\textbackslash gamma \}\}\} where γ \{\textbackslash displaystyle \textbackslash gamma \} is a parameter whose value is typically in the range 2 {$<$} γ {$<$} 3 \{\textbackslash textstyle 2{$<\backslash$}gamma {$<$}3\} (wherein the second moment (scale parameter) of k − γ \{\textbackslash displaystyle k\textasciicircum\{\textbackslash boldsymbol \{-\textbackslash gamma \}\}\} is infinite but the first moment is finite), although occasionally it may lie outside these bounds. The name "scale-free" could be explained by the fact that some moments of the degree distribution are not defined, so that the network does not have a characteristic scale or "size". Preferential attachment and the fitness model have been proposed as mechanisms to explain the power law degree distributions in real networks. Alternative models such as super-linear preferential attachment and second-neighbour preferential attachment may appear to generate transient scale-free networks, but the degree distribution deviates from a power law as networks become very large.}
-      \field{annotation}{Page Version ID: 1347050999}
       \field{booktitle}{Wikipedia}
       \field{day}{4}
       \field{hour}{11}
@@ -377,8 +578,104 @@
       \verb en.wikipedia.org/w/index.php?title=Scale-free_network&oldid=1347050999
       \endverb
     \endentry
+    \entry{simkinConstructionCountingProbabilistic}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=96ec8c6dcc493eec823f0a71a283d71f}{%
+           family={Simkin},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{96ec8c6dcc493eec823f0a71a283d71f}
+      \strng{fullhash}{96ec8c6dcc493eec823f0a71a283d71f}
+      \strng{fullhashraw}{96ec8c6dcc493eec823f0a71a283d71f}
+      \strng{bibnamehash}{96ec8c6dcc493eec823f0a71a283d71f}
+      \strng{authorbibnamehash}{96ec8c6dcc493eec823f0a71a283d71f}
+      \strng{authornamehash}{96ec8c6dcc493eec823f0a71a283d71f}
+      \strng{authorfullhash}{96ec8c6dcc493eec823f0a71a283d71f}
+      \strng{authorfullhashraw}{96ec8c6dcc493eec823f0a71a283d71f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Construction and {{Counting With}} the {{Probabilistic Method}} - {{Huji Math Student}}’s {{Seminar}}}
+      \field{type}{Lecture}
+      \verb{file}
+      \verb /Users/johannes/Zotero/storage/HMBE9FDH/Simkin - Construction and Counting With the Probabilistic Method - Huji Math Student’s Seminar.pdf
+      \endverb
+    \endentry
+    \entry{soiferMathematicalColoringBook2009}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7bb22677b62d61534f0f0527b7c2d277}{%
+           family={Soifer},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{7bb22677b62d61534f0f0527b7c2d277}
+      \strng{fullhash}{7bb22677b62d61534f0f0527b7c2d277}
+      \strng{fullhashraw}{7bb22677b62d61534f0f0527b7c2d277}
+      \strng{bibnamehash}{7bb22677b62d61534f0f0527b7c2d277}
+      \strng{authorbibnamehash}{7bb22677b62d61534f0f0527b7c2d277}
+      \strng{authornamehash}{7bb22677b62d61534f0f0527b7c2d277}
+      \strng{authorfullhash}{7bb22677b62d61534f0f0527b7c2d277}
+      \strng{authorfullhashraw}{7bb22677b62d61534f0f0527b7c2d277}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{pagetotal}{607}
+      \field{shorttitle}{The Mathematical Coloring Book}
+      \field{title}{The Mathematical Coloring Book: Mathematics of Coloring and the Colorful Life of Its Creators}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \keyw{Ramsey theory}
+    \endentry
+    \entry{VertexGraphTheory2026}{inreference}{}{}
+      \list{publisher}{1}{%
+        {Wikimedia Foundation}%
+      }
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In discrete mathematics, and more specifically in graph theory, a vertex (plural vertices) or node is the fundamental unit of which graphs are formed: an undirected graph consists of a set of vertices and a set of edges (unordered pairs of vertices), while a directed graph consists of a set of vertices and a set of arcs (ordered pairs of vertices). In a diagram of a graph, a vertex is usually represented by a circle with a label, and an edge is represented by a line or arrow extending from one vertex to another. From the point of view of graph theory, vertices are treated as featureless and indivisible objects, although they may have additional structure depending on the application from which the graph arises; for instance, a semantic network is a graph in which the vertices represent concepts or classes of objects. The two vertices forming an edge are said to be the endpoints of this edge, and the edge is said to be incident to the vertices. A vertex w is said to be adjacent to another vertex v if the graph contains an edge (v,w). The neighborhood of a vertex v is an induced subgraph of the graph, formed by all vertices adjacent to v.}
+      \field{booktitle}{Wikipedia}
+      \field{day}{4}
+      \field{hour}{9}
+      \field{langid}{english}
+      \field{minute}{15}
+      \field{month}{5}
+      \field{second}{36}
+      \field{timezone}{Z}
+      \field{title}{Vertex (Graph Theory)}
+      \field{urlday}{13}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/johannes/Zotero/storage/VN5FQ4LY/index.html
+      \endverb
+      \verb{urlraw}
+      \verb en.wikipedia.org/w/index.php?title=Vertex_(graph_theory)&oldid=1352459705
+      \endverb
+      \verb{url}
+      \verb en.wikipedia.org/w/index.php?title=Vertex_(graph_theory)&oldid=1352459705
+      \endverb
+    \endentry
   \enddatalist
-  \missing{bianconiNumberCliquesRandom2006}
 \endrefsection
 \endinput
 
