@@ -238,7 +238,7 @@ Bringing the power law distribution and the weight requirements together, we com
     w_i = w_{\text{max}} \times i^{ -\frac{1}{\gamma-1}}
 \end{equation}
 
-Where \( w_{\text{max}} \) is the maximum weight, \( i \) is the rank, and \( \gamma \) the power law exponent \autocite{chungAverageDistancesRandom2002}. An attentive reader might notice how the power coefficient is not exactly \(-\gamma\) but instead \(-\frac{1}{\gamma-1}\). The reason why is beyond the scope of this essay, but in short, it has to do with the fact that one is a function of the degree (\(P(k) \propto k^{-\gamma}\)) and the other a function of the rank (the input i)
+Where \( w_{\text{max}} \) is the maximum weight, \( i \) is the rank, and \( \gamma \) the power law exponent \autocite{chungAverageDistancesRandom2002}. The rank defines the position in the degree sequence. An attentive reader might notice how the power coefficient is not exactly \(-\gamma\) but instead \(-\frac{1}{\gamma-1}\). The reason why is beyond the scope of this essay, but in short, it has to do with the fact that one is a function of the degree (\(P(k) \propto k^{-\gamma}\)) and the other a function of the rank.
 
 Choosing the maximum weight is best done by calculating the maximum value permitted by the equality \( w_i^2 < \sum_{i}{w_i}\), after all, a normalised weight should not exceed a probability of \( 1 \). To find \( w_{\text{max}} \) we need to take apart the equation summing all weights:
 
