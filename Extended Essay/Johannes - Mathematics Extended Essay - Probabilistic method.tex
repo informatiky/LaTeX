@@ -612,7 +612,7 @@ As a result this essay is taking an empirical approach to find a relation betwee
 
 % The theoretical derivation from section \ref{sec:predicting-clique-sizes} shows the inversely proportional relationship between the degree power coefficient \( \gamma \) and the maximum clique size of a scale free network.
 
-To generate the random scale free networks required to empirically explore these graphs, I instructed Claude Sonnet 5 to generate a python script which sweeps through \( \gamma \) values 2.0 to 3 taking steps of 0.05. The script generated a total of \(\num{10500000}\) graphs with \( n =100\) through \( n =100\) nodes each, generating \(\num{50000}\) different graphs per \( \gamma \) value. I then plotted the bivariate relationship between \( \gamma \) and maximal clique size on a coordinate plane which is presented in section \ref{sec:presenting-understanding-results} after the following explanation. 
+To generate the random scale free networks required to empirically explore these graphs, I instructed Claude Sonnet 5 to generate a python script which sweeps through \( \gamma \) values 2.0 to 3 taking steps of 0.05. The script generated a total of \(\num{10500000}\) graphs with values for \( n =100\) through \( n =1000\) nodes in steps of (\num{100}\), generating \(\num{50000}\) different graphs per \( \gamma \) value. I then plotted the bivariate relationship between \( \gamma \) and maximal clique size on a coordinate plane which is presented in section \ref{sec:presenting-understanding-results} after the following explanation. 
 
 For the reader to understand the generation process the following part will build a much smaller scale free network on paper. 
 
