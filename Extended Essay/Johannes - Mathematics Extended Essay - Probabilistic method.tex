@@ -776,7 +776,7 @@ If we were to draw it, Figure \ref{fig:chung-lu-realization-3} would be the resu
 
 The generation of a statistically meaningful number of graphs means we can empirically make conclusions about relationships between \( \gamma \) and the maximal clique size \( c \). As a reminder, I generated a total of \(\num{10500000}\) graphs with values for \( n =100\) through \( n =1000\) nodes in steps of \(\num{100} \), generating \(\num{50000}\) different graphs per \( \gamma \) value \(2.00 \text{ to } 3.00\) with steps of \(0.05 \).
 
-It seems like \( c \) follows a quadratic relationship to \( \gamma \). This relationship holds at an \( R^2 = 0.9675 \text{ to } 0.9995 \), depending on the number of nodes, \(n\) greater than any other common relationship. The quadratic fits can be found in Appendix B. Figure \ref{fig:gamma-clique-comparison} shows the fitted quadratic relationship between \(\gamma\) and clique size for \(n=100\) and \(n=1000\).
+It seems like \( c \) follows a quadratic relationship to \( \gamma \). This relationship holds at an \( R^2 = 0.9675 \text{ to } 0.9995 \), depending on the number of nodes, \(n\) greater than any other common relationship. The quadratic fits can be found in Appendix \ref{sec:quadratic-fit-raw-data}. Figure \ref{fig:gamma-clique-comparison} shows the fitted quadratic relationship between \(\gamma\) and clique size for \(n=100\) and \(n=1000\).
 
 \begin{figure}[H]
 \centering
@@ -863,7 +863,7 @@ To conclude and answer the question: \textit{How does the power coefficient \( \
 \section{AI Statement}
 The use of AI in the process of this extended essay was limited to one of three purposes. First, getting inspiration before the writing and research process to understand possible topic which the essay might research. Second, writing the python and LaTeX code to create the generative script which allows the analysis and presentation of the scale free networks. Third, understanding mathematical notation across different research papers.
 
-\section{Quadratic Fit of Generated Points}
+\section{Quadratic Fit of Generated Points} \label{sec:quadratic-fit-raw-data}
 \begin{table}[H]
 \centering
 \begin{tabular}{S[table-format=4.0] S[table-format=1.4] S[table-format=1.4] S[table-format=-1.4] S[table-format=1.4] S[table-format=1.4] S[table-format=1.4]}
