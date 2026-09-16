@@ -864,7 +864,29 @@ To conclude and answer the question: \textit{How does the power coefficient \( \
 The use of AI in the process of this extended essay was limited to one of three purposes. First, getting inspiration before the writing and research process to understand possible topic which the essay might research. Second, writing the python and LaTeX code to create the generative script which allows the analysis and presentation of the scale free networks. Third, understanding mathematical notation across different research papers.
 
 \section{Quadratic Fit of Generated Points}
-
+\begin{table}[H]
+\centering
+\begin{tabular}{S[table-format=4.0] S[table-format=1.4] S[table-format=1.4] S[table-format=-1.4] S[table-format=1.4] S[table-format=1.4] S[table-format=1.4]}
+\toprule
+& & & & & \multicolumn{2}{c}{Vertex} \\
+\cmidrule(lr){6-7}
+{\(n\)} & {\(R^2\)} & {\(a\)} & {\(b\)} & {\(c\)} & {\(x\)} & {\(y\)} \\
+\midrule
+100  & 0.9995 & 0.1276 & -0.4647 & 2.5748 & 1.8212 & 2.1517 \\
+200  & 0.9980 & 0.1618 & -0.7113 & 2.9340 & 2.1983 & 2.1521 \\
+300  & 0.9935 & 0.1745 & -0.8165 & 3.0923 & 2.3393 & 2.1374 \\
+400  & 0.9805 & 0.1854 & -0.8975 & 3.2104 & 2.4201 & 2.1243 \\
+500  & 0.9676 & 0.1967 & -0.9766 & 3.3250 & 2.4823 & 2.1129 \\
+600  & 0.9723 & 0.2041 & -1.0306 & 3.4036 & 2.5251 & 2.1024 \\
+700  & 0.9756 & 0.2157 & -1.0987 & 3.4927 & 2.5464 & 2.0938 \\
+800  & 0.9736 & 0.2151 & -1.1038 & 3.5035 & 2.5661 & 2.0872 \\
+900  & 0.9723 & 0.2158 & -1.1172 & 3.5272 & 2.5889 & 2.0811 \\
+1000 & 0.9680 & 0.2231 & -1.1577 & 3.5778 & 2.5943 & 2.0761 \\
+\bottomrule
+\end{tabular}
+\caption{Quadratic fit \(y = ax^2+bx+c\) between \(\gamma\) and maximal clique size for each \(n\), with vertex coordinates \((x,y)\).}
+\label{tab:quadratic-fits}
+\end{table}
 \section{Combinations and Permutations} \label{sec:combinations-permutations}
 
 This essay will touch into the probabilistic method. To do so, it is important to clarify the concept of what are colloquially known as \textit{combinations}. Imagine a simple cake in which all ingredients are mixed independent of the order. In mathematical language, that is called a combination of objects. If, on the other hand, the order matters, like for a phone password, that is called a permutation. There is a further distinction between a combination and permutation where repeats are allowed or not. A phone password, for example, can have repeating digits, arranging the winners of a race, on the other hand, cannot. 
