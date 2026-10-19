@@ -670,8 +670,10 @@ We can first calculate \( \sum_{i}{w_i} \) by summing up all weights:
 This also allows us to check whether the weights are feasible:
 
 \[
-w_{\text{max}}^2< \sum_{i}{w_i} = 2.650^2 < 7.02492739 = 7.02492739
+w_{\text{max}}^2 = 2.650457959^2 = 7.024927390 = \sum_{i}{w_i}
 \]
+
+The condition \( w_{\text{max}}^2 \leq \sum_{i}{w_i} \) therefore holds with equality.
 
 Since we decided to take the largest possible value for \( w_{\text{max}} \) following the equality from before, we are now faced with the fact that the graph, specifically the node with the largest weight would have a guaranteed loop. Since we are working with simple graphs, however, there are no loops meaning that this is not a problem.
 
